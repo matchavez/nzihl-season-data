@@ -1,0 +1,4700 @@
+{
+  "league": "NZWIHL",
+  "games": [
+    {
+      "gameid": 2520001,
+      "league": "NZWIHL",
+      "date": "2026-05-08",
+      "away": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 5,
+        "sog_periods": [
+          15,
+          17,
+          17
+        ],
+        "pp": "1/3",
+        "pim": 0
+      },
+      "home": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 0,
+        "sog_periods": [
+          3,
+          4,
+          4
+        ],
+        "pp": "0/0",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "2",
+          "t": "15:18",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "7:54",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Lauren Askenazy",
+            "Jaime Jones"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "15:54",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Hannah Shields"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "8:28",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Lauren Askenazy"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "8:18",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Jaime Jones",
+            "Anjali Mulari"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "10:09",
+          "no": 2,
+          "who": "Gabby Mills",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "4:40",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "16:30",
+          "no": 17,
+          "who": "Isla Lawrence",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675636,
+          "name": "Lochlyn Henry",
+          "sa": 11,
+          "ga": 0,
+          "sv": 11,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675639,
+          "name": "Jordan Wichman",
+          "sa": 49,
+          "ga": 5,
+          "sv": 44,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520002,
+      "league": "NZWIHL",
+      "date": "2026-05-09",
+      "away": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 5,
+        "sog_periods": [
+          18,
+          21,
+          23
+        ],
+        "pp": "1/3",
+        "pim": 2
+      },
+      "home": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 2,
+        "sog_periods": [
+          4,
+          6,
+          4
+        ],
+        "pp": "0/1",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "9:44",
+          "no": 6,
+          "who": "Helen Murray",
+          "assists": [
+            "Hannah Shields"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "6:03",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "3:01",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "assists": [
+            "Jamie Harris"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "6:00",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Lauren Askenazy",
+            "Jaime Jones"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "2:23",
+          "no": 16,
+          "who": "Mana Keefe",
+          "assists": [
+            "Jasmine Horner-Pascoe",
+            "Jaime Jones"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "7:49",
+          "no": 8,
+          "who": "Jamie Harris",
+          "assists": [
+            "Isla Lawrence"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "3",
+          "t": "5:28",
+          "no": 6,
+          "who": "Helen Murray",
+          "assists": [
+            "Hannah Shields"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "2",
+          "t": "17:56",
+          "no": 9,
+          "who": "Jaime Jones",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "4:30",
+          "no": 15,
+          "who": "Joanna styles",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "3:42",
+          "no": null,
+          "who": "",
+          "inf": "Delay of game",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": true
+        },
+        {
+          "per": "3",
+          "t": "0:34",
+          "no": 79,
+          "who": "Aoife Orr",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675636,
+          "name": "Alexa Gibson",
+          "sa": 14,
+          "ga": 2,
+          "sv": 12,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675639,
+          "name": "Zadia Paulse",
+          "sa": 62,
+          "ga": 5,
+          "sv": 57,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520003,
+      "league": "NZWIHL",
+      "date": "2026-05-16",
+      "away": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder Women",
+        "code": "DTW",
+        "total": 2,
+        "sog_periods": [
+          7,
+          11,
+          14
+        ],
+        "pp": "0/3",
+        "pim": 0
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 4,
+        "sog_periods": [
+          6,
+          4,
+          6
+        ],
+        "pp": "0/0",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "16:48",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "1",
+          "t": "11:39",
+          "no": 3,
+          "who": "Reagyn Shattock (Niskakoski)",
+          "assists": [
+            "Gabrielle Guerin"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "1",
+          "t": "5:57",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "2:29",
+          "no": 10,
+          "who": "Gabrielle Guerin (Reagyn Shattock",
+          "assists": [
+            "Niskakoski)"
+          ],
+          "flag": "",
+          "teamID": null
+        },
+        {
+          "per": "2",
+          "t": "1:47",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "0:38",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "2:33",
+          "no": 8,
+          "who": "Abby Barnett",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "13:43",
+          "no": 32,
+          "who": "Tessa Langman",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "8:13",
+          "no": 3,
+          "who": "Reagyn Shattock (Niskakoski)",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675638,
+          "name": "Lucy Thomas",
+          "sa": 10,
+          "ga": 3,
+          "sv": 7,
+          "mp": "40:00"
+        },
+        {
+          "teamID": 675638,
+          "name": "Samantha Winder",
+          "sa": 5,
+          "ga": 0,
+          "sv": 5,
+          "mp": "18:51"
+        },
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 32,
+          "ga": 2,
+          "sv": 30,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520004,
+      "league": "NZWIHL",
+      "date": "2026-05-17",
+      "away": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder Women",
+        "code": "DTW",
+        "total": 8,
+        "sog_periods": [
+          16,
+          13,
+          16
+        ],
+        "pp": "1/6",
+        "pim": 2
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 2,
+        "sog_periods": [
+          3,
+          7,
+          4
+        ],
+        "pp": "0/1",
+        "pim": 14
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "16:51",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [
+            "Sabine Vockins"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "1",
+          "t": "3:23",
+          "no": 16,
+          "who": "Jacinta Hoglund",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "19:21",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "2",
+          "t": "15:53",
+          "no": 5,
+          "who": "Kate Vernal",
+          "assists": [
+            "Felicia Goile"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "1:03",
+          "no": 26,
+          "who": "Camryn Linton",
+          "assists": [],
+          "flag": "PPG",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "18:47",
+          "no": 44,
+          "who": "Bridie Gibbings",
+          "assists": [
+            "Gabrielle Guerin"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "18:04",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [
+            "Lyani Goodman"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "5:19",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "3:26",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "assists": [
+            "Abbey Heale",
+            "Jacinta Hoglund"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "3:17",
+          "no": 25,
+          "who": "Jessica Ryall",
+          "assists": [
+            "Camryn Linton"
+          ],
+          "flag": "",
+          "teamID": 675638
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "9:39",
+          "no": 88,
+          "who": "Lucia (Lucy) Eccleton-Allen",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "9:30",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "9:30",
+          "no": 24,
+          "who": "Millicent Smith",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "8:56",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "6:08",
+          "no": 86,
+          "who": "Addison Hodge",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "2:57",
+          "no": 44,
+          "who": "Bridie Gibbings",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "14:45",
+          "no": 24,
+          "who": "Millicent Smith",
+          "inf": "Boarding",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "9:21",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675638,
+          "name": "Lucy Thomas",
+          "sa": 14,
+          "ga": 2,
+          "sv": 12,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 45,
+          "ga": 8,
+          "sv": 37,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520005,
+      "league": "NZWIHL",
+      "date": "2026-05-23",
+      "away": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 0,
+        "sog_periods": [
+          6,
+          10,
+          7
+        ],
+        "pp": "0/2",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 5,
+        "sog_periods": [
+          13,
+          11,
+          14
+        ],
+        "pp": "0/2",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "6:46",
+          "no": 19,
+          "who": "Hannah Shields",
+          "assists": [
+            "Lili Hidvegi"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "4:22",
+          "no": 19,
+          "who": "Hannah Shields",
+          "assists": [
+            "Jasmine Horner-Pascoe",
+            "Anjali Mulari"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "19:07",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Helen Murray",
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "8:53",
+          "no": 19,
+          "who": "Hannah Shields",
+          "assists": [
+            "Lauren Askenazy",
+            "Helen Murray"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "7:55",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Lauren Askenazy",
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "10:12",
+          "no": 3,
+          "who": "Lili Hidvegi",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "6:30",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "13:55",
+          "no": 9,
+          "who": "Abbey Heale",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "13:55",
+          "no": 3,
+          "who": "Lili Hidvegi",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "7:01",
+          "no": 9,
+          "who": "Jaime Jones",
+          "inf": "Unsportsmanlike conduct",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "7:01",
+          "no": 9,
+          "who": "Abbey Heale",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675638,
+          "name": "Samantha Winder",
+          "sa": 38,
+          "ga": 5,
+          "sv": 33,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675636,
+          "name": "Lochlyn Henry",
+          "sa": 23,
+          "ga": 0,
+          "sv": 23,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520006,
+      "league": "NZWIHL",
+      "date": "2026-05-24",
+      "away": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 3,
+        "sog_periods": [
+          7,
+          2,
+          6
+        ],
+        "pp": "1/3",
+        "pim": 8
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 4,
+        "sog_periods": [
+          12,
+          10,
+          18
+        ],
+        "pp": "1/4",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "2",
+          "t": "5:14",
+          "no": 27,
+          "who": "Erin Thomas",
+          "assists": [
+            "Katya Blong",
+            "Helen Murray"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "18:40",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [],
+          "flag": "PPG",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "18:21",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "17:17",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Jaime Jones",
+            "Lauren Askenazy"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "12:16",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "5:36",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "0:35",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "13:27",
+          "no": 7,
+          "who": "Brooke Patron",
+          "inf": "Delay of game",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "10:35",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "10:10",
+          "no": 12,
+          "who": "Hannah Cross",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "7:01",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "1:29",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "0:32",
+          "no": null,
+          "who": "",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": true
+        },
+        {
+          "per": "3",
+          "t": "8:56",
+          "no": 11,
+          "who": "Indie Lewis",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675638,
+          "name": "Lucy Thomas",
+          "sa": 40,
+          "ga": 4,
+          "sv": 36,
+          "mp": "59:40"
+        },
+        {
+          "teamID": 675636,
+          "name": "Riley Wickes-Smith",
+          "sa": 15,
+          "ga": 3,
+          "sv": 12,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520007,
+      "league": "NZWIHL",
+      "date": "2026-05-29",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 4,
+        "sog_periods": [
+          17,
+          11,
+          7,
+          1
+        ],
+        "pp": "0/6",
+        "pim": 8
+      },
+      "home": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 3,
+        "sog_periods": [
+          11,
+          10,
+          17,
+          1
+        ],
+        "pp": "1/4",
+        "pim": 12
+      },
+      "goals": [
+        {
+          "per": "2",
+          "t": "15:58",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "2",
+          "t": "9:23",
+          "no": 79,
+          "who": "Aoife Orr",
+          "assists": [
+            "Gabby Mills"
+          ],
+          "flag": "PPG",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "7:34",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "assists": [
+            "Nerhys Gordon"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "2",
+          "t": "2:12",
+          "no": 2,
+          "who": "Gabby Mills",
+          "assists": [
+            "Kristyn Ouimet"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "3",
+          "t": "2:08",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "assists": [
+            "Gabrielle Guerin"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "0:50",
+          "no": 2,
+          "who": "Gabby Mills",
+          "assists": [
+            "Kristyn Ouimet"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "OT",
+          "t": "3:39",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "15:00",
+          "no": 88,
+          "who": "Zoe Thurston",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "5:59",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "inf": "Body Checking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "14:22",
+          "no": 6,
+          "who": "Bobbie Weeks",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "13:01",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "11:48",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "10:58",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "inf": "High-sticking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "1:14",
+          "no": 8,
+          "who": "Jamie Harris",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "13:33",
+          "no": 92,
+          "who": "Gracie Hellmrich",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:19",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "8:21",
+          "no": 21,
+          "who": "Steph Patchett",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 39,
+          "ga": 3,
+          "sv": 36,
+          "mp": "61:21"
+        },
+        {
+          "teamID": 675639,
+          "name": "Zadia Paulse",
+          "sa": 34,
+          "ga": 4,
+          "sv": 30,
+          "mp": "60:13"
+        }
+      ],
+      "finalType": "OT"
+    },
+    {
+      "gameid": 2520008,
+      "league": "NZWIHL",
+      "date": "2026-05-30",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 5,
+        "sog_periods": [
+          11,
+          12,
+          12
+        ],
+        "pp": "0/5",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 4,
+        "sog_periods": [
+          7,
+          13,
+          14
+        ],
+        "pp": "1/3",
+        "pim": 10
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "4:56",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "1",
+          "t": "3:35",
+          "no": 3,
+          "who": "Reagyn Shattock (Niskakoski)",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "1",
+          "t": "2:09",
+          "no": 2,
+          "who": "Gabby Mills",
+          "assists": [
+            "Isla Lawrence"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "17:28",
+          "no": 79,
+          "who": "Aoife Orr",
+          "assists": [],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "11:31",
+          "no": 2,
+          "who": "Gabby Mills",
+          "assists": [
+            "Lydia Clarke"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "3",
+          "t": "16:41",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "assists": [
+            "Gabrielle Guerin"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "5:50",
+          "no": 3,
+          "who": "Reagyn Shattock (Niskakoski)",
+          "assists": [
+            "Gabrielle Guerin"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "3:32",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [
+            "Jamie Harris",
+            "Bobbie Weeks"
+          ],
+          "flag": "PPG",
+          "teamID": 675639
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "4:56",
+          "no": 92,
+          "who": "Gracie Hellmrich",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "15:19",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Body Checking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "14:25",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "inf": "Body Checking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "6:06",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Body Checking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "14:48",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "13:09",
+          "no": 6,
+          "who": "Bobbie Weeks",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:26",
+          "no": null,
+          "who": "",
+          "inf": "Delay of game",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": true
+        },
+        {
+          "per": "3",
+          "t": "5:31",
+          "no": 21,
+          "who": "Steph Patchett",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675637,
+          "name": "Rosemary Lee",
+          "sa": 34,
+          "ga": 4,
+          "sv": 30,
+          "mp": "65:00"
+        },
+        {
+          "teamID": 675639,
+          "name": "Jordan Wichman",
+          "sa": 35,
+          "ga": 4,
+          "sv": 31,
+          "mp": "65:00"
+        }
+      ],
+      "finalType": "SO"
+    },
+    {
+      "gameid": 2520009,
+      "league": "NZWIHL",
+      "date": "2026-06-06",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 0,
+        "sog_periods": [
+          0,
+          4,
+          3
+        ],
+        "pp": "0/0",
+        "pim": 2
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 8,
+        "sog_periods": [
+          14,
+          10,
+          14
+        ],
+        "pp": "0/1",
+        "pim": 0
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "16:26",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe",
+            "Keira Hunter"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "14:18",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe",
+            "Jaime Jones"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "3:16",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "16:45",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "14:27",
+          "no": 7,
+          "who": "Brooke Patron",
+          "assists": [
+            "Hannah Shields",
+            "Helen Murray"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "10:51",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "10:50",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe",
+            "Keira Hunter"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "3:43",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron",
+            "Lauren Askenazy"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "8:49",
+          "no": 10,
+          "who": "Bridey Sangster",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675639,
+          "name": "Zadia Paulse",
+          "sa": 41,
+          "ga": 8,
+          "sv": 33,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675636,
+          "name": "Alexa Gibson",
+          "sa": 7,
+          "ga": 0,
+          "sv": 7,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520010,
+      "league": "NZWIHL",
+      "date": "2026-06-06",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 1,
+        "sog_periods": [
+          4,
+          6,
+          2
+        ],
+        "pp": "0/0",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 5,
+        "sog_periods": [
+          22,
+          18,
+          22
+        ],
+        "pp": "1/3",
+        "pim": 0
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "5:32",
+          "no": 5,
+          "who": "Kate Vernal",
+          "assists": [
+            "Abbey Heale"
+          ],
+          "flag": "PPG",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "16:35",
+          "no": 5,
+          "who": "Kate Vernal",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "10:44",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "12:14",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "7:34",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "assists": [
+            "Hannah Cross"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "1:58",
+          "no": 25,
+          "who": "Jessica Ryall",
+          "assists": [
+            "Camryn Linton"
+          ],
+          "flag": "",
+          "teamID": 675638
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "5:41",
+          "no": 21,
+          "who": "Steph Patchett",
+          "inf": "High-sticking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "10:24",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "5:41",
+          "no": 16,
+          "who": "Tayla Wallace",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675637,
+          "name": "Rosemary Lee",
+          "sa": 62,
+          "ga": 5,
+          "sv": 57,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675638,
+          "name": "Samantha Winder",
+          "sa": 12,
+          "ga": 1,
+          "sv": 11,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520011,
+      "league": "NZWIHL",
+      "date": "2026-06-07",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 0,
+        "sog_periods": [
+          1,
+          7,
+          4
+        ],
+        "pp": "0/2",
+        "pim": 10
+      },
+      "home": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 3,
+        "sog_periods": [
+          22,
+          9,
+          15
+        ],
+        "pp": "0/5",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "18:14",
+          "no": 24,
+          "who": "Felicia Goile",
+          "assists": [
+            "Abbey Heale",
+            "Kate Vernal"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "1",
+          "t": "11:57",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [
+            "Kate Vernal",
+            "Felicia Goile"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "1",
+          "t": "5:29",
+          "no": 17,
+          "who": "Rebecca Lilly",
+          "assists": [
+            "Jessica Ryall"
+          ],
+          "flag": "",
+          "teamID": 675638
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "8:54",
+          "no": 64,
+          "who": "Cameron Tobin",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "7:54",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "inf": "Cross-checking",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "15:41",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "15:41",
+          "no": 23,
+          "who": "Caitlin Hollyer",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "15:41",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "15:08",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:53",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "9:58",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 46,
+          "ga": 3,
+          "sv": 43,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675638,
+          "name": "Lucy Thomas",
+          "sa": 12,
+          "ga": 0,
+          "sv": 12,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520012,
+      "league": "NZWIHL",
+      "date": "2026-06-07",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 3,
+        "sog_periods": [
+          3,
+          11,
+          7
+        ],
+        "pp": "1/2",
+        "pim": 4
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 11,
+        "sog_periods": [
+          18,
+          15,
+          19
+        ],
+        "pp": "1/2",
+        "pim": 4
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "4:36",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Keira Hunter",
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "1:28",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Anjali Mulari",
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "17:13",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "13:28",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Katya Blong",
+            "Helen Murray"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "12:02",
+          "no": 2,
+          "who": "Gabby Mills",
+          "assists": [
+            "Kelli Burstein"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "8:33",
+          "no": 6,
+          "who": "Bobbie Weeks",
+          "assists": [
+            "Gabby Mills",
+            "Kelli Burstein"
+          ],
+          "flag": "PPG",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "3:25",
+          "no": 6,
+          "who": "Helen Murray",
+          "assists": [
+            "MeiMei Keith",
+            "Erin Thomas"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "14:57",
+          "no": 7,
+          "who": "Brooke Patron",
+          "assists": [
+            "Katya Blong",
+            "Jorja Rosser"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "13:53",
+          "no": 9,
+          "who": "Jaime Jones",
+          "assists": [
+            "Hannah Shields"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "12:56",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron",
+            "Lauren Askenazy"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "10:23",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "7:16",
+          "no": 7,
+          "who": "Brooke Patron",
+          "assists": [
+            "Eleanor Cunningham",
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "5:31",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Katya Blong",
+            "MeiMei Keith"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "1:23",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "9:07",
+          "no": 4,
+          "who": "Katya Blong",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "15:24",
+          "no": 2,
+          "who": "Gabby Mills",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "10:30",
+          "no": 7,
+          "who": "Brooke Patron",
+          "inf": "Delay of game",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "17:05",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675639,
+          "name": "Tuhi-Mareikura Hopa-Thomson",
+          "sa": 52,
+          "ga": 11,
+          "sv": 41,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675636,
+          "name": "Lochlyn Henry",
+          "sa": 21,
+          "ga": 3,
+          "sv": 18,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520013,
+      "league": "NZWIHL",
+      "date": "2026-06-20",
+      "away": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 3,
+        "sog_periods": [
+          14,
+          10,
+          10
+        ],
+        "pp": "1/3",
+        "pim": 2
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 2,
+        "sog_periods": [
+          4,
+          8,
+          7
+        ],
+        "pp": "0/1",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "18:28",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "10:53",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Katya Blong",
+            "Anjali Mulari"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "17:16",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "assists": [
+            "Steph Patchett"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "14:30",
+          "no": 19,
+          "who": "Hannah Shields",
+          "assists": [
+            "Erin Thomas",
+            "Helen Murray"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "4:38",
+          "no": 4,
+          "who": "Stephanie Koviessen",
+          "assists": [],
+          "flag": "",
+          "teamID": 675637
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "11:06",
+          "no": 20,
+          "who": "Kaci Jonker",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "15:14",
+          "no": 14,
+          "who": "Sophie Jefferies",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "13:09",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "7:22",
+          "no": 4,
+          "who": "Katya Blong",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675636,
+          "name": "Alexa Gibson",
+          "sa": 19,
+          "ga": 2,
+          "sv": 17,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 32,
+          "ga": 3,
+          "sv": 29,
+          "mp": "59:11"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520014,
+      "league": "NZWIHL",
+      "date": "2026-06-20",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 3,
+        "sog_periods": [
+          4,
+          8,
+          7,
+          2
+        ],
+        "pp": "0/2",
+        "pim": 14
+      },
+      "home": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 2,
+        "sog_periods": [
+          10,
+          11,
+          8,
+          1
+        ],
+        "pp": "0/7",
+        "pim": 4
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "13:06",
+          "no": 25,
+          "who": "Jessica Ryall",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "4:04",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [
+            "Gracie Hellmrich"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "1:37",
+          "no": 24,
+          "who": "Felicia Goile",
+          "assists": [
+            "Rebecca Lilly",
+            "Abbey Heale"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "14:00",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [
+            "Polly Bennetts",
+            "Jamie Harris"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "OT",
+          "t": "3:37",
+          "no": 79,
+          "who": "Aoife Orr",
+          "assists": [
+            "Kelli Burstein"
+          ],
+          "flag": "",
+          "teamID": 675639
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "19:45",
+          "no": 16,
+          "who": "Jacinta Hoglund",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "17:00",
+          "no": 2,
+          "who": "Gabby Mills",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "14:03",
+          "no": 17,
+          "who": "Isla Lawrence",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "8:26",
+          "no": 15,
+          "who": "Joanna styles",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "1:16",
+          "no": 79,
+          "who": "Aoife Orr",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "18:35",
+          "no": 15,
+          "who": "Joanna styles",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "10:29",
+          "no": 5,
+          "who": "Kristyn Ouimet",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "OT",
+          "t": "4:29",
+          "no": 15,
+          "who": "Joanna styles",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "OT",
+          "t": "4:00",
+          "no": 16,
+          "who": "Jacinta Hoglund",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675639,
+          "name": "Jordan Wichman",
+          "sa": 30,
+          "ga": 2,
+          "sv": 28,
+          "mp": "61:23"
+        },
+        {
+          "teamID": 675638,
+          "name": "Samantha Winder",
+          "sa": 21,
+          "ga": 3,
+          "sv": 18,
+          "mp": "61:23"
+        }
+      ],
+      "finalType": "OT"
+    },
+    {
+      "gameid": 2520015,
+      "league": "NZWIHL",
+      "date": "2026-06-21",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 1,
+        "sog_periods": [
+          2,
+          5,
+          7,
+          3
+        ],
+        "pp": "0/4",
+        "pim": 8
+      },
+      "home": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 2,
+        "sog_periods": [
+          6,
+          12,
+          7,
+          2
+        ],
+        "pp": "0/4",
+        "pim": 8
+      },
+      "goals": [
+        {
+          "per": "2",
+          "t": "6:53",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "1:07",
+          "no": 8,
+          "who": "Jamie Harris",
+          "assists": [
+            "Kelli Burstein"
+          ],
+          "flag": "",
+          "teamID": 675639
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "5:13",
+          "no": 24,
+          "who": "Felicia Goile",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "0:09",
+          "no": 2,
+          "who": "Gabby Mills",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "17:23",
+          "no": 92,
+          "who": "Gracie Hellmrich",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "14:40",
+          "no": 23,
+          "who": "Caitlin Hollyer",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "5:47",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "11:57",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "6:54",
+          "no": 12,
+          "who": "Hannah Cross",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "0:20",
+          "no": 23,
+          "who": "Caitlin Hollyer",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675639,
+          "name": "Jordan Wichman",
+          "sa": 27,
+          "ga": 1,
+          "sv": 26,
+          "mp": "65:00"
+        },
+        {
+          "teamID": 675638,
+          "name": "Lucy Thomas",
+          "sa": 17,
+          "ga": 1,
+          "sv": 16,
+          "mp": "65:00"
+        }
+      ],
+      "finalType": "SO"
+    },
+    {
+      "gameid": 2520016,
+      "league": "NZWIHL",
+      "date": "2026-06-21",
+      "away": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 8,
+        "sog_periods": [
+          10,
+          17,
+          17
+        ],
+        "pp": "1/5",
+        "pim": 4
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 1,
+        "sog_periods": [
+          8,
+          9,
+          7
+        ],
+        "pp": "1/2",
+        "pim": 10
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "8:05",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Hannah Shields",
+            "Helen Murray"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "1:14",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "19:38",
+          "no": 27,
+          "who": "Nerhys Gordon (Stephanie Koviessen, Lucy-Jane",
+          "assists": [
+            "LJ) Hart"
+          ],
+          "flag": "PPG",
+          "teamID": null
+        },
+        {
+          "per": "2",
+          "t": "9:58",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Lauren Askenazy"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "6:25",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "5:12",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Katya Blong",
+            "Anjali Mulari"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "3:34",
+          "no": 6,
+          "who": "Helen Murray",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "2:17",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "1:56",
+          "no": 25,
+          "who": "Anjali Mulari",
+          "assists": [
+            "Jasmine Horner-Pascoe",
+            "Mana Keefe"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "0:08",
+          "no": 18,
+          "who": "MeiMei Keith",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "12:50",
+          "no": 18,
+          "who": "MeiMei Keith",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "5:21",
+          "no": 14,
+          "who": "Sophie Jefferies",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "1:06",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "19:11",
+          "no": 24,
+          "who": "Millicent Smith",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "13:32",
+          "no": 8,
+          "who": "Abby Barnett",
+          "inf": "Kneeing",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "0:45",
+          "no": 21,
+          "who": "Steph Patchett",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675636,
+          "name": "Lochlyn Henry",
+          "sa": 24,
+          "ga": 1,
+          "sv": 23,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 44,
+          "ga": 8,
+          "sv": 36,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520017,
+      "league": "NZWIHL",
+      "date": "2026-06-26",
+      "away": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 4,
+        "sog_periods": [
+          15,
+          10,
+          13
+        ],
+        "pp": "1/4",
+        "pim": 2
+      },
+      "home": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 1,
+        "sog_periods": [
+          6,
+          8,
+          5
+        ],
+        "pp": "0/1",
+        "pim": 8
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "13:10",
+          "no": 25,
+          "who": "Jessica Ryall",
+          "assists": [
+            "Kate Vernal",
+            "Abbey Heale"
+          ],
+          "flag": "PPG",
+          "teamID": 675638
+        },
+        {
+          "per": "1",
+          "t": "8:52",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [
+            "Aoife Orr"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "0:52",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [
+            "Izzy Power"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "19:35",
+          "no": 22,
+          "who": "Laney Keenan",
+          "assists": [
+            "Jessica Ryall",
+            "Abbey Heale"
+          ],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "3",
+          "t": "14:57",
+          "no": 13,
+          "who": "Rosie Harris",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "13:55",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "17:05",
+          "no": 20,
+          "who": "Tayla Potter",
+          "inf": "High-sticking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "9:41",
+          "no": 79,
+          "who": "Aoife Orr",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "2:21",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "0:01",
+          "no": 14,
+          "who": "Manuella Pedrosa",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675638,
+          "name": "Samantha Winder",
+          "sa": 19,
+          "ga": 1,
+          "sv": 18,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675639,
+          "name": "Jordan Wichman",
+          "sa": 38,
+          "ga": 4,
+          "sv": 34,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2520018,
+      "league": "NZWIHL",
+      "date": "2026-06-27",
+      "away": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder",
+        "code": "DTW",
+        "total": 2,
+        "sog_periods": [
+          12,
+          15,
+          16
+        ],
+        "pp": "1/5",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 0,
+        "sog_periods": [
+          7,
+          2,
+          12
+        ],
+        "pp": "0/2",
+        "pim": 10
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "18:27",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "assists": [],
+          "flag": "",
+          "teamID": 675638
+        },
+        {
+          "per": "2",
+          "t": "6:04",
+          "no": 9,
+          "who": "Abbey Heale",
+          "assists": [
+            "Lyani Goodman"
+          ],
+          "flag": "PPG",
+          "teamID": 675638
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "11:47",
+          "no": 8,
+          "who": "Jamie Harris",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "5:27",
+          "no": 13,
+          "who": "Rosie Harris",
+          "inf": "Boarding",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "5:27",
+          "no": 8,
+          "who": "Jamie Harris",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "19:45",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "7:23",
+          "no": 5,
+          "who": "Kristyn Ouimet",
+          "inf": "Cross-checking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "1:37",
+          "no": 17,
+          "who": "Isla Lawrence",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "16:29",
+          "no": 6,
+          "who": "Lyani Goodman",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "5:47",
+          "no": 16,
+          "who": "Jacinta Hoglund",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675638,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675638,
+          "name": "Samantha Winder",
+          "sa": 21,
+          "ga": 0,
+          "sv": 21,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675639,
+          "name": "Zadia Paulse",
+          "sa": 39,
+          "ga": 2,
+          "sv": 37,
+          "mp": "58:03"
+        }
+      ],
+      "finalType": ""
+    }
+  ],
+  "derived": {
+    "last5": {
+      "675636": [
+        {
+          "gameid": 2520016,
+          "date": "2026-06-21",
+          "result": "W"
+        },
+        {
+          "gameid": 2520013,
+          "date": "2026-06-20",
+          "result": "W"
+        },
+        {
+          "gameid": 2520012,
+          "date": "2026-06-07",
+          "result": "W"
+        },
+        {
+          "gameid": 2520009,
+          "date": "2026-06-06",
+          "result": "W"
+        },
+        {
+          "gameid": 2520006,
+          "date": "2026-05-24",
+          "result": "W"
+        }
+      ],
+      "675639": [
+        {
+          "gameid": 2520018,
+          "date": "2026-06-27",
+          "result": "L"
+        },
+        {
+          "gameid": 2520017,
+          "date": "2026-06-26",
+          "result": "L"
+        },
+        {
+          "gameid": 2520015,
+          "date": "2026-06-21",
+          "result": "SOL"
+        },
+        {
+          "gameid": 2520014,
+          "date": "2026-06-20",
+          "result": "OTW"
+        },
+        {
+          "gameid": 2520012,
+          "date": "2026-06-07",
+          "result": "L"
+        }
+      ],
+      "675638": [
+        {
+          "gameid": 2520018,
+          "date": "2026-06-27",
+          "result": "W"
+        },
+        {
+          "gameid": 2520017,
+          "date": "2026-06-26",
+          "result": "W"
+        },
+        {
+          "gameid": 2520015,
+          "date": "2026-06-21",
+          "result": "SOW"
+        },
+        {
+          "gameid": 2520014,
+          "date": "2026-06-20",
+          "result": "OTL"
+        },
+        {
+          "gameid": 2520011,
+          "date": "2026-06-07",
+          "result": "W"
+        }
+      ],
+      "675637": [
+        {
+          "gameid": 2520016,
+          "date": "2026-06-21",
+          "result": "L"
+        },
+        {
+          "gameid": 2520013,
+          "date": "2026-06-20",
+          "result": "L"
+        },
+        {
+          "gameid": 2520011,
+          "date": "2026-06-07",
+          "result": "L"
+        },
+        {
+          "gameid": 2520010,
+          "date": "2026-06-06",
+          "result": "L"
+        },
+        {
+          "gameid": 2520008,
+          "date": "2026-05-30",
+          "result": "SOW"
+        }
+      ]
+    },
+    "streak": {
+      "675636": {
+        "type": "W",
+        "count": 8
+      },
+      "675639": {
+        "type": "L",
+        "count": 3
+      },
+      "675638": {
+        "type": "W",
+        "count": 3
+      },
+      "675637": {
+        "type": "L",
+        "count": 4
+      }
+    },
+    "head_to_head": {
+      "675636|675639": {
+        "teamA": 675636,
+        "teamB": 675639,
+        "teamA_wins": 4,
+        "teamB_wins": 0,
+        "games": [
+          2520001,
+          2520002,
+          2520009,
+          2520012
+        ],
+        "last_meeting": {
+          "gameid": 2520012,
+          "date": "2026-06-07",
+          "winner_teamID": 675636,
+          "away_total": 3,
+          "home_total": 11,
+          "finalType": ""
+        }
+      },
+      "675637|675638": {
+        "teamA": 675637,
+        "teamB": 675638,
+        "teamA_wins": 1,
+        "teamB_wins": 3,
+        "games": [
+          2520003,
+          2520004,
+          2520010,
+          2520011
+        ],
+        "last_meeting": {
+          "gameid": 2520011,
+          "date": "2026-06-07",
+          "winner_teamID": 675638,
+          "away_total": 0,
+          "home_total": 3,
+          "finalType": ""
+        }
+      },
+      "675636|675638": {
+        "teamA": 675636,
+        "teamB": 675638,
+        "teamA_wins": 2,
+        "teamB_wins": 0,
+        "games": [
+          2520005,
+          2520006
+        ],
+        "last_meeting": {
+          "gameid": 2520006,
+          "date": "2026-05-24",
+          "winner_teamID": 675636,
+          "away_total": 3,
+          "home_total": 4,
+          "finalType": ""
+        }
+      },
+      "675637|675639": {
+        "teamA": 675637,
+        "teamB": 675639,
+        "teamA_wins": 2,
+        "teamB_wins": 0,
+        "games": [
+          2520007,
+          2520008
+        ],
+        "last_meeting": {
+          "gameid": 2520008,
+          "date": "2026-05-30",
+          "winner_teamID": 675637,
+          "away_total": 5,
+          "home_total": 4,
+          "finalType": "SO"
+        }
+      },
+      "675636|675637": {
+        "teamA": 675636,
+        "teamB": 675637,
+        "teamA_wins": 2,
+        "teamB_wins": 0,
+        "games": [
+          2520013,
+          2520016
+        ],
+        "last_meeting": {
+          "gameid": 2520016,
+          "date": "2026-06-21",
+          "winner_teamID": 675636,
+          "away_total": 8,
+          "home_total": 1,
+          "finalType": ""
+        }
+      },
+      "675638|675639": {
+        "teamA": 675638,
+        "teamB": 675639,
+        "teamA_wins": 3,
+        "teamB_wins": 1,
+        "games": [
+          2520014,
+          2520015,
+          2520017,
+          2520018
+        ],
+        "last_meeting": {
+          "gameid": 2520018,
+          "date": "2026-06-27",
+          "winner_teamID": 675638,
+          "away_total": 2,
+          "home_total": 0,
+          "finalType": ""
+        }
+      }
+    },
+    "player_game_logs": {
+      "katyablong": {
+        "name": "Katya Blong",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520001,
+            "date": "2026-05-08",
+            "goals": 3,
+            "assists": 0
+          },
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 1,
+            "assists": 3
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 2,
+            "assists": 1
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 2,
+            "assists": 4
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 2,
+            "assists": 2
+          }
+        ]
+      },
+      "laurenaskenazy": {
+        "name": "Lauren Askenazy",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520001,
+            "date": "2026-05-08",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 1,
+            "assists": 2
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 2,
+            "assists": 1
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "jaimejones": {
+        "name": "Jaime Jones",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520001,
+            "date": "2026-05-08",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "anjalimulari": {
+        "name": "Anjali Mulari",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520001,
+            "date": "2026-05-08",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 4,
+            "assists": 0
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "hannahshields": {
+        "name": "Hannah Shields",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520001,
+            "date": "2026-05-08",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 3,
+            "assists": 0
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "jasminehornerpascoe": {
+        "name": "Jasmine Horner-Pascoe",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520001,
+            "date": "2026-05-08",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 4
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 2,
+            "assists": 1
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 3,
+            "assists": 1
+          }
+        ]
+      },
+      "helenmurray": {
+        "name": "Helen Murray",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "pollybennetts": {
+        "name": "Polly Bennetts",
+        "teamID": 675639,
+        "games": [
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "jamieharris": {
+        "name": "Jamie Harris",
+        "teamID": 675639,
+        "games": [
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520015,
+            "date": "2026-06-21",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "manakeefe": {
+        "name": "Mana Keefe",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "islalawrence": {
+        "name": "Isla Lawrence",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520002,
+            "date": "2026-05-09",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "gabrielleguerin": {
+        "name": "Gabrielle Guerin",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520003,
+            "date": "2026-05-16",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520007,
+            "date": "2026-05-29",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "reagynshattockniskakoski": {
+        "name": "Reagyn Shattock (Niskakoski)",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520003,
+            "date": "2026-05-16",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 2,
+            "assists": 0
+          }
+        ]
+      },
+      "lyanigoodman": {
+        "name": "Lyani Goodman",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520003,
+            "date": "2026-05-16",
+            "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520018,
+            "date": "2026-06-27",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "gabrielleguerinreagynshattock": {
+        "name": "Gabrielle Guerin (Reagyn Shattock",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520003,
+            "date": "2026-05-16",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "niskakoski": {
+        "name": "Niskakoski)",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520003,
+            "date": "2026-05-16",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "nerhysgordon": {
+        "name": "Nerhys Gordon",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520003,
+            "date": "2026-05-16",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520007,
+            "date": "2026-05-29",
+            "goals": 3,
+            "assists": 1
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "abbeyheale": {
+        "name": "Abbey Heale",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 2,
+            "assists": 1
+          },
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520011,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 1,
+            "assists": 2
+          },
+          {
+            "gameid": 2520018,
+            "date": "2026-06-27",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "sabinevockins": {
+        "name": "Sabine Vockins",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "jacintahoglund": {
+        "name": "Jacinta Hoglund",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "lucyjaneljhart": {
+        "name": "Lucy-Jane(LJ) Hart",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "katevernal": {
+        "name": "Kate Vernal",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520011,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "feliciagoile": {
+        "name": "Felicia Goile",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520011,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "camrynlinton": {
+        "name": "Camryn Linton",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "bridiegibbings": {
+        "name": "Bridie Gibbings",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "manuellapedrosa": {
+        "name": "Manuella Pedrosa",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520015,
+            "date": "2026-06-21",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "jessicaryall": {
+        "name": "Jessica Ryall",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520004,
+            "date": "2026-05-17",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520011,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "lilihidvegi": {
+        "name": "Lili Hidvegi",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "brookepatron": {
+        "name": "Brooke Patron",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520005,
+            "date": "2026-05-23",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 1,
+            "assists": 2
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 2,
+            "assists": 3
+          }
+        ]
+      },
+      "erinthomas": {
+        "name": "Erin Thomas",
+        "teamID": 675636,
+        "games": [
+          {
+            "gameid": 2520006,
+            "date": "2026-05-24",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "aoifeorr": {
+        "name": "Aoife Orr",
+        "teamID": 675639,
+        "games": [
+          {
+            "gameid": 2520007,
+            "date": "2026-05-29",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "gabbymills": {
+        "name": "Gabby Mills",
+        "teamID": 675639,
+        "games": [
+          {
+            "gameid": 2520007,
+            "date": "2026-05-29",
+            "goals": 2,
+            "assists": 1
+          },
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 1
+          }
+        ]
+      },
+      "kristynouimet": {
+        "name": "Kristyn Ouimet",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520007,
+            "date": "2026-05-29",
+            "goals": 0,
+            "assists": 2
+          }
+        ]
+      },
+      "lydiaclarke": {
+        "name": "Lydia Clarke",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "angelagodfrey": {
+        "name": "Angela Godfrey",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "kelliburstein": {
+        "name": "Kelli Burstein",
+        "teamID": 675639,
+        "games": [
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 2
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 2,
+            "assists": 1
+          },
+          {
+            "gameid": 2520015,
+            "date": "2026-06-21",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "bobbieweeks": {
+        "name": "Bobbie Weeks",
+        "teamID": 675639,
+        "games": [
+          {
+            "gameid": 2520008,
+            "date": "2026-05-30",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "keirahunter": {
+        "name": "Keira Hunter",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520009,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 2
+          },
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "hannahcross": {
+        "name": "Hannah Cross",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520010,
+            "date": "2026-06-06",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "rebeccalilly": {
+        "name": "Rebecca Lilly",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520011,
+            "date": "2026-06-07",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "meimeikeith": {
+        "name": "MeiMei Keith",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 2
+          }
+        ]
+      },
+      "jorjarosser": {
+        "name": "Jorja Rosser",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "eleanorcunningham": {
+        "name": "Eleanor Cunningham",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520012,
+            "date": "2026-06-07",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "stephpatchett": {
+        "name": "Steph Patchett",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "stephaniekoviessen": {
+        "name": "Stephanie Koviessen",
+        "teamID": 675637,
+        "games": [
+          {
+            "gameid": 2520013,
+            "date": "2026-06-20",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "graciehellmrich": {
+        "name": "Gracie Hellmrich",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520014,
+            "date": "2026-06-20",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "nerhysgordonstephaniekoviessenlucyjane": {
+        "name": "Nerhys Gordon (Stephanie Koviessen, Lucy-Jane",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "ljhart": {
+        "name": "LJ) Hart",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "izzypower": {
+        "name": "Izzy Power",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "laneykeenan": {
+        "name": "Laney Keenan",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      },
+      "rosieharris": {
+        "name": "Rosie Harris",
+        "teamID": 675638,
+        "games": [
+          {
+            "gameid": 2520017,
+            "date": "2026-06-26",
+            "goals": 1,
+            "assists": 0
+          }
+        ]
+      }
+    }
+  }
+}
