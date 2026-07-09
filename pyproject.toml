@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nzihl-season-data"
+version = "0.1.0"
+description = "Season-level data warehouse for NZIHL/NZWIHL broadcast graphics: nightly scrape of every completed box score into committed JSON (games + derived streaks/H2H/game-logs)."
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
