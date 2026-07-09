@@ -34,14 +34,23 @@ jobs:
         run: |
           python -m nzihl_season --leagues nzihl,nzwihl --output . --probe-ahead 20 --sleep 1.0 | tee build.log
 
-      - name: Commit if changed
+      - name: Commit if the deliverable actually changed
         run: |
+          # cursor.json legitimately drifts on every run (see README
+          # "Idempotency" -- the gameid space is shared with unrelated
+          # esportsdesk customers, so scanned_through advances even when we
+          # find zero new games of our own). A run that finds no new games
+          # must be a true no-op commit-wise, so the decision to commit is
+          # based ONLY on nzihl.json/nzwihl.json -- the actual warehouse
+          # consumers fetch. If those are unchanged, discard the local
+          # cursor.json drift (git checkout resets it) rather than pushing a
+          # bookkeeping-only commit every single run.
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add nzihl.json nzwihl.json cursor.json
-          if git diff --cached --quiet; then
-            echo "No changes."
+          if git diff --quiet -- nzihl.json nzwihl.json; then
+            echo "No new games -- data unchanged, skipping commit (cursor.json progress discarded this run)."
             exit 0
           fi
+          git add nzihl.json nzwihl.json cursor.json
           git commit -m "Update season data warehouse [skip ci]"
           git push
