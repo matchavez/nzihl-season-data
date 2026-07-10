@@ -12,8 +12,10 @@ For each league (nzihl, nzwihl):
   3. Merge any newly-completed games into the committed list (idempotent --
      keyed by gameid; existing entries are never re-fetched or overwritten).
   4. Recompute `derived` fresh from the full merged games list.
-  5. Write `<league>.json` = {"league", "games", "derived"} and update
-     `cursor.json`.
+  5. Fetch the season's remaining fixtures (schedules.cfm, no lookahead
+     cap -- see upcoming.py) and attach as `upcoming`.
+  6. Write `<league>.json` = {"league", "games", "derived", "upcoming"}
+     and update `cursor.json`.
 
 Cursor bookkeeping is deliberately kept OUT of nzihl.json/nzwihl.json: the
 gameid space is shared with every other esportsdesk customer on the
@@ -31,12 +33,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 from .discovery import bootstrap_cursor, nightly_update
 from .game import build_game
 from .derived import build_derived
 from .teams import LEAGUES
+from .upcoming import fetch_upcoming
 
 CURSOR_FILE = "cursor.json"
 
@@ -54,7 +58,7 @@ def build_league(key: str, out_dir: Path, cursor_state: dict, *, probe_ahead: in
                   bootstrap_probe_ahead: int = 60, sleep: float = 1.0) -> dict:
     league = LEAGUES[key]
     path = out_dir / f"{key}.json"
-    existing = _load_json(path, {"league": league.name, "games": [], "derived": {}})
+    existing = _load_json(path, {"league": league.name, "games": [], "derived": {}, "upcoming": []})
     existing_games = {g["gameid"]: g for g in existing.get("games", [])}
     cursor = cursor_state.get(key) or {}
 
@@ -72,7 +76,19 @@ def build_league(key: str, out_dir: Path, cursor_state: dict, *, probe_ahead: in
     games = sorted(existing_games.values(), key=lambda g: (g.get("date") or "9999-99-99", g["gameid"]))
     derived = build_derived(games)
 
-    manifest = {"league": league.name, "games": games, "derived": derived}
+    # Whole-season remaining fixtures (no lookahead cap -- see upcoming.py's
+    # module docstring for why this is deliberately separate from
+    # nzihl-broadcast-rosters' windowed boxscores.json). Best-effort: a
+    # transient scrape failure just keeps whatever was committed last time
+    # rather than wiping the field or aborting the whole league's build.
+    try:
+        upcoming = fetch_upcoming(league.client_id, league.league_id)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[warn] {league.name} upcoming-schedule fetch failed ({exc!r}); "
+              f"keeping previously-committed upcoming list", file=sys.stderr)
+        upcoming = existing.get("upcoming", [])
+
+    manifest = {"league": league.name, "games": games, "derived": derived, "upcoming": upcoming}
     out_dir.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(manifest, indent=2, sort_keys=False) + "\n")
 
