@@ -4696,5 +4696,79 @@
         ]
       }
     }
-  }
+  },
+  "upcoming": [
+    {
+      "date": "2026-07-11",
+      "time": "17:00",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild"
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno"
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "time": "17:00",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild"
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "time": "16:30",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno"
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel"
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "time": "16:30",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno"
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel"
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "time": "18:00",
+      "away": {
+        "teamID": 675636,
+        "name": "Auckland Steel"
+      },
+      "home": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder"
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "time": "16:00",
+      "away": {
+        "teamID": 675636,
+        "name": "Auckland Steel"
+      },
+      "home": {
+        "teamID": 675638,
+        "name": "Dunedin Thunder"
+      }
+    }
+  ]
 }
