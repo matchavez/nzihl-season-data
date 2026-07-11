@@ -3277,6 +3277,189 @@
         }
       ],
       "finalType": ""
+    },
+    {
+      "gameid": 2520019,
+      "league": "NZWIHL",
+      "date": "2026-07-11",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 4,
+        "sog_periods": [
+          10,
+          19,
+          11
+        ],
+        "pp": "0/2",
+        "pim": 10
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 1,
+        "sog_periods": [
+          14,
+          16,
+          5
+        ],
+        "pp": "1/5",
+        "pim": 4
+      },
+      "goals": [
+        {
+          "per": "2",
+          "t": "10:49",
+          "no": 3,
+          "who": "Reagyn Shattock (Niskakoski)",
+          "assists": [
+            "Sophie Jefferies"
+          ],
+          "flag": "PPG",
+          "teamID": 675637
+        },
+        {
+          "per": "2",
+          "t": "6:25",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [
+            "Joanna styles"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "3:57",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "0:01",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [],
+          "flag": "PS",
+          "teamID": 675639
+        },
+        {
+          "per": "3",
+          "t": "2:05",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "assists": [],
+          "flag": "",
+          "teamID": 675639
+        }
+      ],
+      "pens": [
+        {
+          "per": "2",
+          "t": "18:45",
+          "no": 64,
+          "who": "Cameron Tobin",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "11:31",
+          "no": 8,
+          "who": "Jamie Harris",
+          "inf": "Body Checking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "11:31",
+          "no": 15,
+          "who": "Joanna styles",
+          "inf": "Elbowing",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "9:31",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "inf": "Head Contact",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "0:01",
+          "no": 44,
+          "who": "Bridie Gibbings",
+          "inf": "Penalty Shot Awarded",
+          "dur": "Penalty Shot",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "3:59",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "3:48",
+          "no": 5,
+          "who": "Kristyn Ouimet",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "0:35",
+          "no": 2,
+          "who": "Gabby Mills",
+          "inf": "Unsportsmanlike conduct",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675639,
+          "name": "Jordan Wichman",
+          "sa": 35,
+          "ga": 1,
+          "sv": 34,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 39,
+          "ga": 3,
+          "sv": 36,
+          "mp": "59:18"
+        }
+      ],
+      "finalType": ""
     }
   ],
   "derived": {
@@ -3310,6 +3493,11 @@
       ],
       "675639": [
         {
+          "gameid": 2520019,
+          "date": "2026-07-11",
+          "result": "W"
+        },
+        {
           "gameid": 2520018,
           "date": "2026-06-27",
           "result": "L"
@@ -3328,11 +3516,6 @@
           "gameid": 2520014,
           "date": "2026-06-20",
           "result": "OTW"
-        },
-        {
-          "gameid": 2520012,
-          "date": "2026-06-07",
-          "result": "L"
         }
       ],
       "675638": [
@@ -3364,6 +3547,11 @@
       ],
       "675637": [
         {
+          "gameid": 2520019,
+          "date": "2026-07-11",
+          "result": "L"
+        },
+        {
           "gameid": 2520016,
           "date": "2026-06-21",
           "result": "L"
@@ -3382,11 +3570,6 @@
           "gameid": 2520010,
           "date": "2026-06-06",
           "result": "L"
-        },
-        {
-          "gameid": 2520008,
-          "date": "2026-05-30",
-          "result": "SOW"
         }
       ]
     },
@@ -3396,8 +3579,8 @@
         "count": 8
       },
       "675639": {
-        "type": "L",
-        "count": 3
+        "type": "W",
+        "count": 1
       },
       "675638": {
         "type": "W",
@@ -3405,7 +3588,7 @@
       },
       "675637": {
         "type": "L",
-        "count": 4
+        "count": 5
       }
     },
     "head_to_head": {
@@ -3471,18 +3654,19 @@
         "teamA": 675637,
         "teamB": 675639,
         "teamA_wins": 2,
-        "teamB_wins": 0,
+        "teamB_wins": 1,
         "games": [
           2520007,
-          2520008
+          2520008,
+          2520019
         ],
         "last_meeting": {
-          "gameid": 2520008,
-          "date": "2026-05-30",
-          "winner_teamID": 675637,
-          "away_total": 5,
-          "home_total": 4,
-          "finalType": "SO"
+          "gameid": 2520019,
+          "date": "2026-07-11",
+          "winner_teamID": 675639,
+          "away_total": 4,
+          "home_total": 1,
+          "finalType": ""
         }
       },
       "675636|675637": {
@@ -3870,6 +4054,12 @@
             "date": "2026-06-20",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520019,
+            "date": "2026-07-11",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -3989,6 +4179,12 @@
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520019,
+            "date": "2026-07-11",
+            "goals": 1,
             "assists": 0
           }
         ]
@@ -4494,6 +4690,12 @@
             "date": "2026-06-26",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2520019,
+            "date": "2026-07-11",
+            "goals": 3,
+            "assists": 0
           }
         ]
       },
@@ -4694,22 +4896,34 @@
             "assists": 0
           }
         ]
+      },
+      "sophiejefferies": {
+        "name": "Sophie Jefferies",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520019,
+            "date": "2026-07-11",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
+      },
+      "joannastyles": {
+        "name": "Joanna styles",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520019,
+            "date": "2026-07-11",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
       }
     }
   },
   "upcoming": [
-    {
-      "date": "2026-07-11",
-      "time": "17:00",
-      "away": {
-        "teamID": 675639,
-        "name": "Wakatipu Wild"
-      },
-      "home": {
-        "teamID": 675637,
-        "name": "Canterbury Inferno"
-      }
-    },
     {
       "date": "2026-07-12",
       "time": "17:00",
