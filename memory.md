@@ -17,5 +17,23 @@ Nightly warehouse of every **completed** NZIHL/NZWIHL box score, committed as `n
 - **matchavez/nzihl-broadcast-rosters** / **nzwihl-broadcast-rosters** — separate concern (upcoming games only); this repo is completed-games only.
 - **matchavez/nzihl-broadcast-assets** — the in-progress Game Summary worker (`summary/worker.js`) is planned to read from this warehouse eventually (not yet wired up as of last check).
 
+## Known bugs (open, found 2026-07-12)
+
+**Parenthetical names inside an ASSIST list corrupt the goal-line parser** — a distinct,
+unfixed sibling of the already-fixed "scorer's own name has a parenthetical" bug. When a
+player with a stored parenthetical (maiden name like Canterbury Inferno #3 "Reagyn Shattock
+(Niskakoski)", or a bracketed nickname like "Lucy-Jane(LJ) Hart") appears as an ASSIST on
+someone else's goal, the greedy-name-capture fix (which only guards the SCORER position)
+doesn't help — the goal is stored with a garbled `who`, a garbled single-entry `assists` array,
+and `teamID: null`. Confirmed live examples: game 2520003 (`who: "Gabrielle Guerin (Reagyn
+Shattock", assists: ["Niskakoski)"], teamID: null`) and game 2520016 (`who: "Nerhys Gordon
+(Stephanie Koviessen, Lucy-Jane", assists: ["LJ) Hart"], teamID: null`). Net effect: both
+players lose the goal/assist from their season totals in `derived.player_game_logs`. Found
+while verifying `matchavez/hockey`'s scoringleaders totals against live `stats_1team.cfm` for
+2 teams/league (see that repo's `warehouse-audit.md` + memory.md, 2026-07-12) — ADM/CRD/AST
+matched exactly, CIN did not, root-caused to this. **Not fixed yet** — recommend porting the
+existing greedy-capture treatment to assist names in the goal-line regex, then re-verifying
+CIN's totals match live before anything downstream trusts this repo for season scoring totals.
+
 ## Sync note
 Keep this file and README.md in sync with every meaningful change. If they drift, flag it to Mat and get approval before publishing the sync rather than doing it silently.
