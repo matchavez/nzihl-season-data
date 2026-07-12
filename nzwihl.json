@@ -3460,6 +3460,199 @@
         }
       ],
       "finalType": ""
+    },
+    {
+      "gameid": 2520020,
+      "league": "NZWIHL",
+      "date": "2026-07-12",
+      "away": {
+        "teamID": 675639,
+        "name": "Wakatipu Wild",
+        "code": "WLD",
+        "total": 3,
+        "sog_periods": [
+          14,
+          10,
+          5
+        ],
+        "pp": "0/4",
+        "pim": 14
+      },
+      "home": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 0,
+        "sog_periods": [
+          8,
+          12,
+          13
+        ],
+        "pp": "0/7",
+        "pim": 8
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "12:25",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [
+            "Joanna styles"
+          ],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "1",
+          "t": "7:24",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "assists": [],
+          "flag": "",
+          "teamID": 675639
+        },
+        {
+          "per": "2",
+          "t": "7:30",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "assists": [],
+          "flag": "",
+          "teamID": 675639
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "16:17",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Delay of game",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "1",
+          "t": "3:39",
+          "no": 21,
+          "who": "Steph Patchett",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "10:32",
+          "no": 28,
+          "who": "Kelli Burstein",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "4:14",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "3:33",
+          "no": 15,
+          "who": "Joanna styles",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "17:20",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Elbowing",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "16:01",
+          "no": 10,
+          "who": "Bridey Sangster",
+          "inf": "Too many players",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "14:40",
+          "no": 10,
+          "who": "Gabrielle Guerin",
+          "inf": "Boarding",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:30",
+          "no": 8,
+          "who": "Jamie Harris",
+          "inf": "Illegal Hit",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "9:21",
+          "no": 36,
+          "who": "Polly Bennetts",
+          "inf": "Blow To The Head",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "2:58",
+          "no": 2,
+          "who": "Gabby Mills",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675639,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675639,
+          "name": "Zadia Paulse",
+          "sa": 33,
+          "ga": 0,
+          "sv": 33,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 29,
+          "ga": 3,
+          "sv": 26,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
     }
   ],
   "derived": {
@@ -3493,6 +3686,11 @@
       ],
       "675639": [
         {
+          "gameid": 2520020,
+          "date": "2026-07-12",
+          "result": "W"
+        },
+        {
           "gameid": 2520019,
           "date": "2026-07-11",
           "result": "W"
@@ -3511,11 +3709,6 @@
           "gameid": 2520015,
           "date": "2026-06-21",
           "result": "SOL"
-        },
-        {
-          "gameid": 2520014,
-          "date": "2026-06-20",
-          "result": "OTW"
         }
       ],
       "675638": [
@@ -3547,6 +3740,11 @@
       ],
       "675637": [
         {
+          "gameid": 2520020,
+          "date": "2026-07-12",
+          "result": "L"
+        },
+        {
           "gameid": 2520019,
           "date": "2026-07-11",
           "result": "L"
@@ -3565,11 +3763,6 @@
           "gameid": 2520011,
           "date": "2026-06-07",
           "result": "L"
-        },
-        {
-          "gameid": 2520010,
-          "date": "2026-06-06",
-          "result": "L"
         }
       ]
     },
@@ -3580,7 +3773,7 @@
       },
       "675639": {
         "type": "W",
-        "count": 1
+        "count": 2
       },
       "675638": {
         "type": "W",
@@ -3588,7 +3781,7 @@
       },
       "675637": {
         "type": "L",
-        "count": 5
+        "count": 6
       }
     },
     "head_to_head": {
@@ -3654,18 +3847,19 @@
         "teamA": 675637,
         "teamB": 675639,
         "teamA_wins": 2,
-        "teamB_wins": 1,
+        "teamB_wins": 2,
         "games": [
           2520007,
           2520008,
-          2520019
+          2520019,
+          2520020
         ],
         "last_meeting": {
-          "gameid": 2520019,
-          "date": "2026-07-11",
+          "gameid": 2520020,
+          "date": "2026-07-12",
           "winner_teamID": 675639,
-          "away_total": 4,
-          "home_total": 1,
+          "away_total": 3,
+          "home_total": 0,
           "finalType": ""
         }
       },
@@ -4058,6 +4252,12 @@
           {
             "gameid": 2520019,
             "date": "2026-07-11",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520020,
+            "date": "2026-07-12",
             "goals": 1,
             "assists": 0
           }
@@ -4696,6 +4896,12 @@
             "date": "2026-07-11",
             "goals": 3,
             "assists": 0
+          },
+          {
+            "gameid": 2520020,
+            "date": "2026-07-12",
+            "goals": 2,
+            "assists": 0
           }
         ]
       },
@@ -4918,24 +5124,18 @@
             "date": "2026-07-11",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520020,
+            "date": "2026-07-12",
+            "goals": 0,
+            "assists": 1
           }
         ]
       }
     }
   },
   "upcoming": [
-    {
-      "date": "2026-07-12",
-      "time": "17:00",
-      "away": {
-        "teamID": 675639,
-        "name": "Wakatipu Wild"
-      },
-      "home": {
-        "teamID": 675637,
-        "name": "Canterbury Inferno"
-      }
-    },
     {
       "date": "2026-07-18",
       "time": "16:30",
