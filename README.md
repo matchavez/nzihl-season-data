@@ -63,10 +63,22 @@ https://raw.githubusercontent.com/matchavez/nzihl-season-data/main/nzwihl.json
     "player_game_logs": {
       "<normalized-name>": { "name": "Display Name", "teamID": <int|null>,
         "games": [ { "gameid", "date", "goals", "assists" }, ... ] }
-    }
+    },
+    "standings": [
+      { "code": "SCS", "name": "SkyCity Stampede", "teamID": 675635,
+        "gp": 12, "w": 7, "l": 2, "otw": 3, "otl": 0, "pts": 27 },
+      { "...": "one entry per club, in RANK ORDER (array index 0 = 1st)" }
+    ]
   }
 }
 ```
+
+`derived.standings` is captured **verbatim from `standings.cfm`**, NOT
+recomputed from `games` -- see "Standings scraping" below for why. Rank is
+purely the array's own order (index + 1); no `pos` field is stored, so a
+consumer wanting a rank number computes it the same way
+`matchavez/hockey`'s JS already does (`rows.findIndex(...)+1` or a plain
+loop index).
 
 `result` values in `last5`/streak math: `W` / `L` / `OTW` / `OTL` / `SOW` / `SOL`.
 
@@ -141,6 +153,39 @@ parser does differently or additionally, found while building it (2026-07-09):
 
 ---
 
+## Standings scraping (`standings.py`)
+
+`fetch_standings(league_key)` scrapes `standings.cfm?clientid=&leagueid=&
+printPage=1` once per league, per build, and stores the table esportsdesk
+already computed **verbatim** -- `derived.standings`, rank order = page
+order. This is deliberately a capture, not a derivation: NZIHL/NZWIHL's
+exact points-per-result rules (regulation win / OT win / OT loss /
+shootout etc.) aren't reliably known here, and recomputing a standings
+table from `games` and getting the points math wrong on a live broadcast
+graphic (a producer's on-air "sits 5th" line) is a bad failure mode this
+repo chose to sidestep entirely rather than risk.
+
+- One `<table>`, header `<th>` row then one `<tr>` of `<td>` per team. Cols:
+  `Team | GP | W | L | OTW | OTL | PTS | P% | GF | GA | DIFF | GF/G | GA/G
+  | PIM | STR | L10` -- only the first seven matter here.
+- **Team-cell fusion is DIFFERENT from the box score's.** The cell holds
+  two responsive `<span>`s (full name, then short code) with literally NO
+  space between them in the source HTML -- e.g. `SkyCity StampedeSCS`.
+  Unlike `parser.py`'s box-score cells (which need `_fix_span_fusion()`
+  because raw `.textContent`-style concatenation has zero separator),
+  `td.get_text(" ", strip=True)` here already inserts a space between the
+  two spans' text, so this module does NOT call that helper.
+- Team identity (`code`/`name`/`teamID`) is resolved against this repo's
+  own canonical `TEAMS` registry (name-substring match), never trusted
+  from the page's own trailing short code -- esportsdesk's own codes have
+  drifted from ours before (Admirals "WAA" vs our normalised "ADM"; same
+  reasoning as `upcoming.py`'s full-name-over-short-code choice). Falls
+  back to the page's own text only if a row doesn't match any known team
+  (shouldn't happen for the 9 currently-active clubs).
+- Best-effort in `cli.py`'s `build_league()`, same pattern as `upcoming`:
+  a transient fetch failure keeps whatever `derived.standings` was
+  committed last time rather than wiping the field or aborting the build.
+
 ## Gameid discovery (`discovery.py`)
 
 - **Bootstrap** (no `cursor.json` entry for a league yet): probe downward from
@@ -195,3 +240,16 @@ missed -- see the parser gotcha above.
 - `matchavez/hockey`'s `ticker/` page uses this warehouse for its pregame
   "last meeting" line and head-to-head record instead of a live 25-fetch
   sequential-gameid probe (kept as a fallback if the warehouse fetch fails).
+- `matchavez/hockey`'s `activity-banner/`, `scorebug-l3/` (coach Player L3
+  record/standings-position stat line), and `ticker/` (pregame "sits Nth"
+  confidence line) all fetch `derived.standings` for their one-shot pregame
+  standings lookup instead of a live `standings.cfm` fetch (migrated
+  2026-07-13). This is a nightly-cadence dataset like everything else in
+  this file -- a game played earlier the same day as a broadcast may not be
+  reflected yet; `workflow_dispatch` forces a same-day refresh if tighter
+  freshness is needed for a specific broadcast. No esportsdesk live-fetch
+  fallback tier was added on the consumer side for this one (not
+  real-time-critical the way the box-score poll is) -- a warehouse-fetch
+  failure or unmatched team just omits the pregame line, same "anything
+  unresolved is omitted" rule already governing every other pregame line
+  on these pages.

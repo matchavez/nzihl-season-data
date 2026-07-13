@@ -39,6 +39,7 @@ from pathlib import Path
 from .discovery import bootstrap_cursor, nightly_update
 from .game import build_game
 from .derived import build_derived
+from .standings import fetch_standings
 from .teams import LEAGUES
 from .upcoming import fetch_upcoming
 
@@ -75,6 +76,20 @@ def build_league(key: str, out_dir: Path, cursor_state: dict, *, probe_ahead: in
 
     games = sorted(existing_games.values(), key=lambda g: (g.get("date") or "9999-99-99", g["gameid"]))
     derived = build_derived(games)
+
+    # Current standings table, captured VERBATIM from standings.cfm (esportsdesk's
+    # own computed W/L/OTW/OTL/PTS + rank order) -- deliberately not recomputed
+    # from `games`, since NZIHL/NZWIHL's exact points-per-result rules aren't
+    # reliably known here and getting that math wrong on a live broadcast graphic
+    # is a bad failure mode (see standings.py module docstring). Best-effort, same
+    # pattern as `upcoming` below: a transient scrape failure keeps whatever was
+    # committed last time rather than wiping the field or aborting the build.
+    try:
+        derived["standings"] = fetch_standings(key)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[warn] {league.name} standings fetch failed ({exc!r}); "
+              f"keeping previously-committed standings", file=sys.stderr)
+        derived["standings"] = existing.get("derived", {}).get("standings", [])
 
     # Whole-season remaining fixtures (no lookahead cap -- see upcoming.py's
     # module docstring for why this is deliberately separate from
