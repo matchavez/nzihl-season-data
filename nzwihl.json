@@ -5104,7 +5104,53 @@
           }
         ]
       }
-    }
+    },
+    "standings": [
+      {
+        "code": "AST",
+        "name": "Auckland Steel",
+        "teamID": 675636,
+        "gp": 8,
+        "w": 8,
+        "l": 0,
+        "otw": 0,
+        "otl": 0,
+        "pts": 24
+      },
+      {
+        "code": "DTW",
+        "name": "Dunedin Thunder Women",
+        "teamID": 675638,
+        "gp": 10,
+        "w": 5,
+        "l": 3,
+        "otw": 1,
+        "otl": 1,
+        "pts": 18
+      },
+      {
+        "code": "WLD",
+        "name": "Wakatipu Wild",
+        "teamID": 675639,
+        "gp": 12,
+        "w": 2,
+        "l": 6,
+        "otw": 1,
+        "otl": 3,
+        "pts": 11
+      },
+      {
+        "code": "CIN",
+        "name": "Canterbury Inferno",
+        "teamID": 675637,
+        "gp": 10,
+        "w": 1,
+        "l": 7,
+        "otw": 2,
+        "otl": 0,
+        "pts": 7
+      }
+    ]
   },
   "upcoming": [
     {
