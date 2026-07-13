@@ -55,5 +55,39 @@ Canterbury Inferno (teamID 675637) — Gabrielle Guerin, Nerhys Gordon, Reagyn S
 (ADM, NZIHL) and Auckland Steel (AST, NZWIHL) full rosters against live stats_1team.cfm too —
 byte-for-byte G/A/PTS match, confirming no regression from the two previously-clean teams.
 
+## New: standings scraping (2026-07-13)
+
+Added `src/nzihl_season/standings.py` -> `derived.standings`. Scrapes
+`standings.cfm` once per league per build and stores esportsdesk's own
+computed table VERBATIM (rank = page order, W/L/OTW/OTL/PTS as scraped) --
+deliberately NOT recomputed from `games`, since the exact NZIHL/NZWIHL
+points-per-result rules aren't reliably known here and getting that math
+wrong on a live broadcast graphic is a bad failure mode. Wired into
+`cli.py`'s `build_league()` with the same best-effort try/except pattern as
+`fetch_upcoming` (keeps last-committed standings on a transient scrape
+failure, never wipes the field). Team identity resolved against `TEAMS`
+(name match), not the page's own trailing short code (which drifts --
+same reasoning as `upcoming.py`). Team-cell fusion note: standings.cfm's
+"Full Name" + short-code spans have literally NO space between them in the
+source (unlike the box score, which needs `_fix_span_fusion()`) --
+`td.get_text(" ", strip=True)` already separates them, so no fusion fix
+was needed here. 6 tests in `tests/test_standings.py` against two real
+fixtures fetched 2026-07-13 (`standings_nzihl.html`, `standings_nzwihl.html`).
+
+Live-verified 2026-07-13: `derived.standings` for all 5 NZIHL + all 4
+NZWIHL clubs matched a fresh live `standings.cfm` fetch exactly (rank
+order + every column) immediately after the first `workflow_dispatch`
+that populated the field.
+
+**Consumer:** `matchavez/hockey`'s `activity-banner/`, `scorebug-l3/`
+(coach Player L3 record+rank line) and `ticker/` (pregame "sits Nth" line)
+migrated off a live `standings.cfm` fetch onto this field the same day --
+see that repo's `memory.md`. Known tradeoff: since this repo only updates
+nightly (16:30 UTC), a game played earlier the same day as tonight's
+broadcast may not be reflected in `derived.standings` yet -- same
+freshness characteristic already accepted for H2H/last-meeting/streaks.
+`workflow_dispatch` forces a same-day refresh if a specific broadcast
+needs tighter freshness.
+
 ## Sync note
 Keep this file and README.md in sync with every meaningful change. If they drift, flag it to Mat and get approval before publishing the sync rather than doing it silently.
