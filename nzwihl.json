@@ -377,12 +377,12 @@
           "per": "2",
           "t": "2:29",
           "no": 10,
-          "who": "Gabrielle Guerin (Reagyn Shattock",
+          "who": "Gabrielle Guerin",
           "assists": [
-            "Niskakoski)"
+            "Reagyn Shattock (Niskakoski)"
           ],
           "flag": "",
-          "teamID": null
+          "teamID": 675637
         },
         {
           "per": "2",
@@ -2801,12 +2801,13 @@
           "per": "2",
           "t": "19:38",
           "no": 27,
-          "who": "Nerhys Gordon (Stephanie Koviessen, Lucy-Jane",
+          "who": "Nerhys Gordon",
           "assists": [
-            "LJ) Hart"
+            "Stephanie Koviessen",
+            "Lucy-Jane(LJ) Hart"
           ],
           "flag": "PPG",
-          "teamID": null
+          "teamID": 675637
         },
         {
           "per": "2",
@@ -4336,7 +4337,7 @@
           {
             "gameid": 2520003,
             "date": "2026-05-16",
-            "goals": 1,
+            "goals": 2,
             "assists": 1
           },
           {
@@ -4373,7 +4374,7 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 1,
-            "assists": 0
+            "assists": 1
           },
           {
             "gameid": 2520008,
@@ -4425,30 +4426,6 @@
           }
         ]
       },
-      "gabrielleguerinreagynshattock": {
-        "name": "Gabrielle Guerin (Reagyn Shattock",
-        "teamID": null,
-        "games": [
-          {
-            "gameid": 2520003,
-            "date": "2026-05-16",
-            "goals": 1,
-            "assists": 0
-          }
-        ]
-      },
-      "niskakoski": {
-        "name": "Niskakoski)",
-        "teamID": null,
-        "games": [
-          {
-            "gameid": 2520003,
-            "date": "2026-05-16",
-            "goals": 0,
-            "assists": 1
-          }
-        ]
-      },
       "nerhysgordon": {
         "name": "Nerhys Gordon",
         "teamID": 675637,
@@ -4468,6 +4445,12 @@
           {
             "gameid": 2520008,
             "date": "2026-05-30",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
             "goals": 1,
             "assists": 0
           }
@@ -4560,6 +4543,12 @@
             "date": "2026-06-20",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -5028,6 +5017,12 @@
             "date": "2026-06-20",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2520016,
+            "date": "2026-06-21",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -5038,30 +5033,6 @@
           {
             "gameid": 2520014,
             "date": "2026-06-20",
-            "goals": 0,
-            "assists": 1
-          }
-        ]
-      },
-      "nerhysgordonstephaniekoviessenlucyjane": {
-        "name": "Nerhys Gordon (Stephanie Koviessen, Lucy-Jane",
-        "teamID": null,
-        "games": [
-          {
-            "gameid": 2520016,
-            "date": "2026-06-21",
-            "goals": 1,
-            "assists": 0
-          }
-        ]
-      },
-      "ljhart": {
-        "name": "LJ) Hart",
-        "teamID": null,
-        "games": [
-          {
-            "gameid": 2520016,
-            "date": "2026-06-21",
             "goals": 0,
             "assists": 1
           }

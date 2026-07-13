@@ -30,11 +30,26 @@ documented): a scoring-summary cell for a player whose display name itself
 carries a parenthetical (nickname/maiden name, e.g. "Reagyn Shattock
 (Niskakoski)") breaks a *lazy* name-then-assists regex -- the lazy quantifier
 stops at the FIRST "(", so the nickname paren gets misread as the assist
-list. Fixed here by capturing the name GREEDILY so the trailing group always
-resolves to the LAST parenthetical (real assists / "Unassisted"), matching
-how the penalty-row team-suffix regex already behaved. The live ticker/
-scorebug/activity-banner JS parsers still have the lazy version and should
-be patched to match if this is ever revisited.
+list. The live ticker/scorebug/activity-banner JS parsers still have the
+lazy version and should be patched to match if this is ever revisited.
+
+2026-07-13 correction: a flat *greedy* regex (matching up to the LAST "("
+in the cell) only fixed the case above when the parenthetical name was the
+SCORER. The identical shape also occurs on an ASSIST -- e.g. "Gabrielle
+Guerin (Reagyn Shattock (Niskakoski))" or "Nerhys Gordon (Stephanie
+Koviessen, Lucy-Jane(LJ) Hart)" -- and there a flat greedy regex still
+splits at the WRONG paren (it grabs up to the last literal "(" in the
+string, which lands inside the nested nickname paren instead of at the true
+outer assist-list boundary), corrupting both `who` and `assists` and
+dropping `teamID` to null. Replaced the regex-based split with
+`_split_trailing_balanced_parens()`, which counts paren depth from the
+right to find the true OUTER, balanced parenthesis pair no matter what's
+nested inside it -- this correctly handles the parenthetical landing on the
+scorer, on an assist, or on more than one name in the same list. The
+assist-list split also moved from a flat `.split(",")` to
+`_split_top_level_commas()` for the same reason (depth-aware splitting is
+the generally-correct behavior, even though a comma inside a nested paren
+hasn't been observed live).
 
 Also new: the completed box score's own header block carries the game's
 real calendar date, time, venue, and a literal "FINAL", "FINAL /OT" or
@@ -53,8 +68,10 @@ _SECTION_RE = re.compile(
 )
 _TEAMID_RE = re.compile(r"teamID=(\d+)", re.IGNORECASE)
 _TEAM_CELL_RE = re.compile(r"^(.*?)\s+([A-Z]{2,4})$")
-# Greedy name capture -- see "New contract" note above.
-_GOAL_ROW_RE = re.compile(r"^#?(\d+)\s+(.+)\s*\((.*)\)\s*$")
+# Jersey number + everything after it -- the name/assists split itself is
+# NOT done with a flat regex; see _split_trailing_balanced_parens() and the
+# "2026-07-13 correction" module note above for why.
+_GOAL_ROW_NO_RE = re.compile(r"^#?(\d+)\s+(.*)$")
 _PEN_TEAM_RE = re.compile(r"\(([^()]*)\)\s*$")
 _PEN_ROW_RE = re.compile(r"^#?(\d+)\s+(.+?)\s*\([^()]*\)\s*$")
 _SOG_PARENS_RE = re.compile(r"\(([^)]*)\)")
@@ -77,6 +94,52 @@ _STATUS_RE = re.compile(r"FINAL\s*(?:/\s*(OT|SO))?", re.IGNORECASE)
 
 def _fix_span_fusion(html: str) -> str:
     return re.sub(r"</span>", "</span> ", html, flags=re.IGNORECASE)
+
+
+def _split_trailing_balanced_parens(s: str) -> tuple[str, str] | None:
+    """Split `s` into (before, inner) where `inner` is the content of the
+    LAST top-level, balanced parenthesis pair whose closing ")" is the final
+    character of `s`. Paren depth is counted from the RIGHT so a nested
+    paren -- e.g. a scorer's or an assist's own bracketed nickname/maiden
+    name -- can't fool the split the way a flat greedy/lazy regex can (see
+    module note). Returns None if `s` doesn't end in a balanced ")".
+    """
+    s = s.rstrip()
+    if not s.endswith(")"):
+        return None
+    depth = 0
+    for i in range(len(s) - 1, -1, -1):
+        ch = s[i]
+        if ch == ")":
+            depth += 1
+        elif ch == "(":
+            depth -= 1
+            if depth == 0:
+                return s[:i].rstrip(), s[i + 1 : -1]
+    return None  # unbalanced parens -- shouldn't happen on real rows
+
+
+def _split_top_level_commas(s: str) -> list[str]:
+    """Split `s` on commas that sit OUTSIDE any nested paren pair, so an
+    assist's own bracketed nickname (e.g. "Lucy-Jane(LJ) Hart") is never
+    torn apart even if it were to contain a comma."""
+    parts = []
+    depth = 0
+    cur: list[str] = []
+    for ch in s:
+        if ch == "(":
+            depth += 1
+            cur.append(ch)
+        elif ch == ")":
+            depth = max(0, depth - 1)
+            cur.append(ch)
+        elif ch == "," and depth == 0:
+            parts.append("".join(cur))
+            cur = []
+        else:
+            cur.append(ch)
+    parts.append("".join(cur))
+    return parts
 
 
 def _txt(el) -> str:
@@ -260,27 +323,39 @@ def parse_boxscore(html: str) -> dict:
     if ss_h:
         for o in section(ss_h):
             c = o["c"]
-            m = _GOAL_ROW_RE.match(c[0])
-            if not m:
+            no_m = _GOAL_ROW_NO_RE.match(c[0])
+            if not no_m:
                 # Not a real scoring row -- e.g. a SHOOTOUT attempt list row
                 # ("Nerhys Gordon" + a check/cross icon with no jersey#/parens/
                 # time). Shootout attempts aren't goals for period/player
                 # stat purposes; skip rather than misrecord. See module note.
                 continue
-            who = proper_case(m.group(2).strip())
-            assists_raw = m.group(3).strip()
+            rest = no_m.group(2).strip()
+            split = _split_trailing_balanced_parens(rest)
+            if split is None:
+                # No trailing balanced "(...)" at all -- same "not a real
+                # scoring row" case as above, just caught at the paren step.
+                continue
+            name_part, assists_raw = split
+            name_part = name_part.strip()
+            assists_raw = assists_raw.strip()
+            who = proper_case(name_part)
             assists = (
                 []
                 if not assists_raw or re.match(r"^unassisted$", assists_raw, re.IGNORECASE)
-                else [proper_case(a.strip()) for a in assists_raw.split(",") if a.strip()]
+                else [
+                    proper_case(a.strip())
+                    for a in _split_top_level_commas(assists_raw)
+                    if a.strip()
+                ]
             )
             flag = str(c[1]).strip() if len(c) > 2 else ""
-            tid = team_of_name(m.group(2).strip())
+            tid = team_of_name(name_part)
             goals.append(
                 {
                     "per": o["per"],
                     "t": c[-1] if c else "",
-                    "no": int(m.group(1)),
+                    "no": int(no_m.group(1)),
                     "who": who,
                     "assists": assists,
                     "flag": flag,

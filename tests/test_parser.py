@@ -99,6 +99,38 @@ def test_team_penalty_vs_missing_jersey_player_penalty():
     assert team_pens[0]["inf"] == "Delay of game"
 
 
+def test_nicknamed_player_as_assist_not_broken_by_extra_parens():
+    """Sibling of test_nicknamed_player_scoring_row_not_broken_by_extra_parens
+    (found 2026-07-12, fixed 2026-07-13): the greedy-capture fix only guarded
+    the SCORER position. When the parenthetical name appears as an ASSIST
+    instead, the goal used to come out with a garbled `who`, a garbled
+    single-entry `assists` list, and `teamID: None`. Two real repro games:
+    2520003 (Gabrielle Guerin's goal assisted by "Reagyn Shattock
+    (Niskakoski)") and 2520016 (Nerhys Gordon's PPG assisted by both
+    "Stephanie Koviessen" and "Lucy-Jane(LJ) Hart")."""
+    parsed = parse_boxscore(_load("nzwihl_2520003.html"))
+    goal = next(g for g in parsed["goals"] if g["t"] == "2:29" and g["per"] == "2")
+    assert goal["who"] == "Gabrielle Guerin"
+    assert goal["assists"] == ["Reagyn Shattock (Niskakoski)"]
+    assert goal["teamID"] == 675637  # Canterbury Inferno
+
+    parsed2 = parse_boxscore(_load("nzwihl_2520016.html"))
+    goal2 = next(g for g in parsed2["goals"] if g["t"] == "19:38" and g["per"] == "2")
+    assert goal2["who"] == "Nerhys Gordon"
+    assert goal2["assists"] == ["Stephanie Koviessen", "Lucy-Jane(LJ) Hart"]
+    assert goal2["teamID"] == 675637  # Canterbury Inferno
+    assert goal2["flag"] == "PPG"
+
+    # Global invariant this bug class violates: every goal must resolve a
+    # teamID, and neither `who` nor any assist string should carry a stray
+    # unmatched "(" left over from a bad split.
+    for g in parsed["goals"] + parsed2["goals"]:
+        assert g["teamID"] is not None, g
+        assert g["who"].count("(") == g["who"].count(")"), g
+        for a in g["assists"]:
+            assert a.count("(") == a.count(")"), g
+
+
 def test_pregame_shell_is_not_complete():
     """A future/unplayed game's box score is a shell: teams parse, but
     there's no FINAL status text and no goals -- must not be treated as a

@@ -104,16 +104,26 @@ parser does differently or additionally, found while building it (2026-07-09):
   header text. A pre-game shell has no such status line at all -- that
   absence, plus an empty goals list, is what "not complete yet" means here.
 
-- **A scorer whose display name itself carries a parenthetical** (a maiden
-  name / nickname, e.g. `"Reagyn Shattock (Niskakoski)"`) breaks a *lazy*
-  name-then-assists regex: the lazy quantifier stops at the FIRST `(`, so the
-  nickname paren gets misread as the assist list. Fixed by capturing the name
-  **greedily**, so the trailing group always resolves to the LAST parenthetical
-  (the real assist list, or "Unassisted") -- matching how the penalty-row
-  team-suffix regex already behaved. **The live ticker/scorebug/activity-banner
-  JS parsers in matchavez/hockey still use the lazy version** and will misparse
-  this exact case if a nicknamed player ever scores during a live broadcast --
-  worth porting this fix over if revisited.
+- **A player whose display name itself carries a parenthetical** (a maiden
+  name / nickname, e.g. `"Reagyn Shattock (Niskakoski)"`, `"Lucy-Jane(LJ)
+  Hart"`) breaks a *lazy* name-then-assists regex: the lazy quantifier stops
+  at the FIRST `(`, so the nickname paren gets misread as the start of the
+  assist list. A first pass (2026-07-09) fixed this with a flat *greedy*
+  regex, but that only covered the case where the parenthetical name was the
+  **scorer** -- when the same shape occurs on an **assist** instead (e.g.
+  `"Gabrielle Guerin (Reagyn Shattock (Niskakoski))"`), a flat greedy regex
+  still splits at the wrong `(` (the last literal one, which lands inside the
+  nested nickname paren), corrupting `who`, `assists`, and dropping `teamID`
+  to `null`. Found 2026-07-12, fixed 2026-07-13 by replacing the regex split
+  with `_split_trailing_balanced_parens()` (`parser.py`), which counts paren
+  depth from the right to find the true OUTER balanced pair no matter what's
+  nested inside it -- correct regardless of whether the parenthetical name is
+  the scorer, an assist, or both. Assist-list comma-splitting was similarly
+  switched to a depth-aware `_split_top_level_commas()`. **The live
+  ticker/scorebug/activity-banner JS parsers in matchavez/hockey still use
+  the original lazy version** and will misparse this exact case (either
+  position) if a nicknamed player is involved in a goal during a live
+  broadcast -- worth porting this fix over if revisited.
 
 - **`SHOOTOUT` is a structurally different table** (per-team subheading + a
   name/check-or-cross-icon table, no jersey#/parens/clock) from the normal
@@ -175,7 +185,10 @@ approximations -- see matchavez/nzihl-broadcast-rosters's own lesson that
 simplified fixtures miss real markup quirks): `nzihl_2519941_ot.html` is the
 Max Roth overtime winner (SCS 3, BSW 2) that originally caught the
 `OVERTIME PERIOD 1` heading bug; `nzwihl_2520008.html` goes to a shootout and
-has the nicknamed-player scoring row.
+has the nicknamed-player-as-SCORER row (Reagyn Shattock); `nzwihl_2520003.html`
+and `nzwihl_2520016.html` (added 2026-07-13) have the nicknamed-player-as-
+ASSIST case (Reagyn Shattock, Lucy-Jane(LJ) Hart) that the first paren fix
+missed -- see the parser gotcha above.
 
 ## Consumers
 
