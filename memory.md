@@ -9,7 +9,7 @@ Nightly warehouse of every **completed** NZIHL/NZWIHL box score, committed as `n
 `src/nzihl_season/` (scraper + derivation logic), `tests/`, `cursor.json` (bookkeeping: `scanned_through` + `pending` gameids per league — deliberately kept OUT of nzihl.json/nzwihl.json so the data files stay clean), `.github/workflows/build.yml`.
 
 ## Automation
-- Cron `30 16 * * *` UTC = ~04:30 NZST — **deliberately runs before** the roster pipelines' 17:30 UTC run, so same-morning "last meeting" lookups in the ticker page always see last night's completed games already committed here. If you ever touch this cron, preserve that ordering.
+- **Runs every 3 hours** (8 cron slots, tightened 2026-07-13 from once-nightly -- see README "Schedule" for the full writeup and the concrete same-day-multi-game case that motivated it). Original anchor `30 16 * * *` UTC = ~04:30 NZST is preserved exactly — **deliberately runs before** the roster pipelines' 17:30 UTC run, so same-morning "last meeting" lookups in the ticker page always see last night's completed games already committed here. The other 7 slots are that same anchor at +3h increments. If you ever touch this schedule, preserve the 04:30 NZST slot's ordering relative to the roster pipelines.
 - Only commits when `nzihl.json`/`nzwihl.json` actually change (fixed 2026-07-09) — don't expect a commit every single night if nothing new resolved.
 
 ## Related repos
@@ -82,12 +82,26 @@ that populated the field.
 **Consumer:** `matchavez/hockey`'s `activity-banner/`, `scorebug-l3/`
 (coach Player L3 record+rank line) and `ticker/` (pregame "sits Nth" line)
 migrated off a live `standings.cfm` fetch onto this field the same day --
-see that repo's `memory.md`. Known tradeoff: since this repo only updates
-nightly (16:30 UTC), a game played earlier the same day as tonight's
-broadcast may not be reflected in `derived.standings` yet -- same
-freshness characteristic already accepted for H2H/last-meeting/streaks.
-`workflow_dispatch` forces a same-day refresh if a specific broadcast
-needs tighter freshness.
+see that repo's `memory.md`.
+
+**2026-07-13, later same day: cron tightened from once-nightly to every 3
+hours.** Mat flagged a concrete risk after seeing the migration: NZIHL's
+upcoming schedule has two DIFFERENT matchups on the same calendar day
+(2026-07-18: SkyCity Stampede @ Canterbury Red Devils 17:10, Botany Swarm
+@ Dunedin Thunder 18:00) -- with a once-nightly refresh, the second
+broadcast's pregame standings line could still reflect the previous
+morning's data, missing the first game's result entirely for up to ~24h.
+Presented Mat 4 options (manual pre-broadcast refresh / preflight
+freshness indicator+button / tighten cron / restore a live fallback); he
+chose tightening the cron. `.github/workflows/build.yml` now has 8 cron
+slots at 3h intervals instead of 1 -- the original `30 16 * * *` anchor is
+untouched (still precedes the roster pipelines' 17:30 UTC run), the other
+7 are that same anchor +3h/+6h/etc. Max staleness for "game finished
+hours ago, not yet reflected" dropped from ~24h to ~3h. This does NOT
+solve the case of two games genuinely overlapping in time (the second
+game's broadcast can start before the first has finished, which no
+refresh cadence fixes) -- only the "stale by up to a day" case. No-op
+runs (no new games) still don't commit, so this doesn't spam history.
 
 ## Sync note
 Keep this file and README.md in sync with every meaningful change. If they drift, flag it to Mat and get approval before publishing the sync rather than doing it silently.

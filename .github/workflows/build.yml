@@ -1,11 +1,26 @@
 name: Build season data warehouse
 
 on:
-  # Nightly at 16:30 UTC (~04:30 NZST / 05:30 NZDT) -- before the roster
+  # Every 3 hours (tightened from once-nightly 2026-07-13, after a same-day
+  # multi-game staleness risk was flagged -- see README "Schedule" section
+  # below for the concrete case that motivated this and memory.md for the
+  # full writeup). "30 16 * * *" is the ORIGINAL anchor slot and must stay
+  # exactly where it is: it's ~04:30 NZST, deliberately before the roster
   # pipelines' 17:30 UTC run, so a same-morning "last meeting" lookup in the
   # ticker always sees last night's completed games already committed here.
+  # The other 7 slots are that same anchor +3h/+6h/... around the clock --
+  # purely a frequency increase, no other behavior change. A run that finds
+  # no new games is still a true no-op commit (see "Commit if the deliverable
+  # actually changed" below), so the extra runs don't spam commit history.
   schedule:
-    - cron: "30 16 * * *"
+    - cron: "30 16 * * *"   # 04:30 NZST -- original anchor, before roster pipelines
+    - cron: "30 19 * * *"   # 07:30 NZST
+    - cron: "30 22 * * *"   # 10:30 NZST
+    - cron: "30 1 * * *"    # 13:30 NZST
+    - cron: "30 4 * * *"    # 16:30 NZST -- pre-evening-broadcast catch-up
+    - cron: "30 7 * * *"    # 19:30 NZST
+    - cron: "30 10 * * *"   # 22:30 NZST
+    - cron: "30 13 * * *"   # 01:30 NZST
   workflow_dispatch: {}
 
 permissions:

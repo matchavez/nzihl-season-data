@@ -1,9 +1,32 @@
 # matchavez/nzihl-season-data — NZIHL/NZWIHL Season Data Warehouse
 
-Nightly GitHub Action that scrapes every **completed** NZIHL/NZWIHL box score into
-two committed JSON files, so broadcast overlay pages (matchavez/hockey) can make
-season-level claims -- streaks, head-to-head records, last meetings, player game
-logs -- from one cached file instead of live-probing esportsdesk during a broadcast.
+GitHub Action (every 3 hours, see "Schedule" below) that scrapes every
+**completed** NZIHL/NZWIHL box score into two committed JSON files, so
+broadcast overlay pages (matchavez/hockey) can make season-level claims --
+streaks, head-to-head records, last meetings, standings, player game logs
+-- from one cached file instead of live-probing esportsdesk during a
+broadcast.
+
+## Schedule
+
+Runs every 3 hours (`.github/workflows/build.yml`'s 8 cron slots), not
+once nightly -- **tightened 2026-07-13** after a same-day multi-game
+staleness risk was flagged: two different NZIHL matchups can fall on the
+same calendar day (e.g. an afternoon game in one city, an evening game in
+another), and a once-a-night refresh meant the second broadcast's pregame
+standings line could still reflect the previous morning's data, missing
+the first game's result entirely. The original `30 16 * * *` (~04:30 NZST)
+slot is preserved exactly as before -- it must stay ahead of the roster
+pipelines' 17:30 UTC run so a same-morning "last meeting" lookup always
+sees last night's games already committed -- the other 7 slots are that
+same anchor at +3h increments around the clock. A run that finds no new
+games is still a true no-op commit (see "Idempotency" below), so the extra
+runs don't spam commit history or otherwise change behavior beyond
+freshness. This does NOT fully close the staleness gap for two games
+literally overlapping in time (the second game's broadcast may start
+before the first game has even finished, which no refresh cadence can
+fix) -- it only shrinks the window for "finished hours ago, not yet
+picked up" from ~24h down to ~3h.
 
 No GitHub Pages needed; consumers fetch straight from raw.githubusercontent.com:
 
@@ -244,12 +267,13 @@ missed -- see the parser gotcha above.
   record/standings-position stat line), and `ticker/` (pregame "sits Nth"
   confidence line) all fetch `derived.standings` for their one-shot pregame
   standings lookup instead of a live `standings.cfm` fetch (migrated
-  2026-07-13). This is a nightly-cadence dataset like everything else in
-  this file -- a game played earlier the same day as a broadcast may not be
-  reflected yet; `workflow_dispatch` forces a same-day refresh if tighter
-  freshness is needed for a specific broadcast. No esportsdesk live-fetch
-  fallback tier was added on the consumer side for this one (not
-  real-time-critical the way the box-score poll is) -- a warehouse-fetch
+  2026-07-13, cadence tightened to every 3h the same day -- see "Schedule"
+  above). A game played earlier the same day as a broadcast may still not
+  be reflected for up to ~3h; `workflow_dispatch` forces an immediate
+  refresh if tighter freshness is needed for a specific broadcast. No
+  esportsdesk live-fetch fallback tier was added on the consumer side for
+  this one (not real-time-critical the way the box-score poll is) -- a
+  warehouse-fetch
   failure or unmatched team just omits the pregame line, same "anything
   unresolved is omitted" rule already governing every other pregame line
   on these pages.
