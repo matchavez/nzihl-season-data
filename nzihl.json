@@ -7722,6 +7722,304 @@
         }
       ],
       "finalType": ""
+    },
+    {
+      "gameid": 2519945,
+      "league": "NZIHL",
+      "date": "2026-07-17",
+      "away": {
+        "teamID": 674109,
+        "name": "Botany Swarm",
+        "code": "BSW",
+        "total": 5,
+        "sog_periods": [
+          17,
+          11,
+          13
+        ],
+        "pp": "1/6",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 675634,
+        "name": "Dunedin Thunder",
+        "code": "DUN",
+        "total": 7,
+        "sog_periods": [
+          11,
+          14,
+          9
+        ],
+        "pp": "0/3",
+        "pim": 14
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "10:38",
+          "no": 15,
+          "who": "Markus MacDonald",
+          "assists": [
+            "Nico Hemming"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "1",
+          "t": "7:37",
+          "no": 94,
+          "who": "Nico Hemming",
+          "assists": [
+            "Markus MacDonald",
+            "Alan Kazhenov"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "1",
+          "t": "6:55",
+          "no": 43,
+          "who": "Chris Eaden",
+          "assists": [
+            "Morgan Blair"
+          ],
+          "flag": "",
+          "teamID": 675634
+        },
+        {
+          "per": "1",
+          "t": "4:26",
+          "no": 93,
+          "who": "Luke Stegmann",
+          "assists": [
+            "Cole Beckstead",
+            "Jack Lewis"
+          ],
+          "flag": "",
+          "teamID": 675634
+        },
+        {
+          "per": "1",
+          "t": "4:07",
+          "no": 91,
+          "who": "Morgan Blair",
+          "assists": [
+            "Joe Orr",
+            "Samuel Loiselle"
+          ],
+          "flag": "",
+          "teamID": 675634
+        },
+        {
+          "per": "1",
+          "t": "3:21",
+          "no": 72,
+          "who": "Samuel Loiselle",
+          "assists": [
+            "Chris Eaden"
+          ],
+          "flag": "",
+          "teamID": 675634
+        },
+        {
+          "per": "2",
+          "t": "17:00",
+          "no": 16,
+          "who": "Josh Steen",
+          "assists": [
+            "Ritchie Hopkinson",
+            "Ondrej Kozak"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "2",
+          "t": "14:26",
+          "no": 27,
+          "who": "Ian Audas",
+          "assists": [
+            "Cole Beckstead"
+          ],
+          "flag": "SHG",
+          "teamID": 675634
+        },
+        {
+          "per": "2",
+          "t": "4:58",
+          "no": 62,
+          "who": "Rudolfs Lapsa",
+          "assists": [
+            "Ivan Dalmatau",
+            "Nathan Hufnagel"
+          ],
+          "flag": "PPG",
+          "teamID": 674109
+        },
+        {
+          "per": "3",
+          "t": "16:00",
+          "no": 55,
+          "who": "Rayne Walsh",
+          "assists": [
+            "Samuel Loiselle"
+          ],
+          "flag": "",
+          "teamID": 675634
+        },
+        {
+          "per": "3",
+          "t": "13:57",
+          "no": 15,
+          "who": "Markus MacDonald",
+          "assists": [
+            "Josh Steen",
+            "Michael Attwell"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "3",
+          "t": "0:51",
+          "no": 91,
+          "who": "Morgan Blair",
+          "assists": [],
+          "flag": "",
+          "teamID": 675634
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "6:45",
+          "no": 22,
+          "who": "Max Hurring",
+          "inf": "Delay of game",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "20:00",
+          "no": 88,
+          "who": "Cole Beckstead",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "20:00",
+          "no": 55,
+          "who": "Rayne Walsh",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "20:00",
+          "no": 5,
+          "who": "Kyle March",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "20:00",
+          "no": 4,
+          "who": "Luke Simon",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "15:53",
+          "no": 93,
+          "who": "Luke Stegmann",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "14:26",
+          "no": 6,
+          "who": "Michael Attwell",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "5:35",
+          "no": 93,
+          "who": "Luke Stegmann",
+          "inf": "Illegal Check to the Head",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "4:58",
+          "no": 93,
+          "who": "Luke Stegmann",
+          "inf": "Abuse of official",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:30",
+          "no": 72,
+          "who": "Samuel Loiselle",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675634,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 674109,
+          "name": "Grace Harrison",
+          "sa": 11,
+          "ga": 4,
+          "sv": 7,
+          "mp": "20:00"
+        },
+        {
+          "teamID": 674109,
+          "name": "Connor Parr",
+          "sa": 22,
+          "ga": 2,
+          "sv": 20,
+          "mp": "39:13"
+        },
+        {
+          "teamID": 675634,
+          "name": "James Moore",
+          "sa": 41,
+          "ga": 5,
+          "sv": 36,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
     }
   ],
   "derived": {
@@ -7755,6 +8053,11 @@
       ],
       "675634": [
         {
+          "gameid": 2519945,
+          "date": "2026-07-17",
+          "result": "W"
+        },
+        {
           "gameid": 2519944,
           "date": "2026-07-12",
           "result": "W"
@@ -7772,11 +8075,6 @@
         {
           "gameid": 2519939,
           "date": "2026-06-27",
-          "result": "W"
-        },
-        {
-          "gameid": 2519934,
-          "date": "2026-06-20",
           "result": "W"
         }
       ],
@@ -7836,6 +8134,11 @@
       ],
       "674109": [
         {
+          "gameid": 2519945,
+          "date": "2026-07-17",
+          "result": "L"
+        },
+        {
           "gameid": 2519942,
           "date": "2026-07-05",
           "result": "L"
@@ -7854,11 +8157,6 @@
           "gameid": 2519937,
           "date": "2026-06-27",
           "result": "L"
-        },
-        {
-          "gameid": 2519936,
-          "date": "2026-06-21",
-          "result": "L"
         }
       ]
     },
@@ -7869,7 +8167,7 @@
       },
       "675634": {
         "type": "W",
-        "count": 1
+        "count": 2
       },
       "675633": {
         "type": "W",
@@ -7881,7 +8179,7 @@
       },
       "674109": {
         "type": "L",
-        "count": 5
+        "count": 6
       }
     },
     "head_to_head": {
@@ -7947,17 +8245,18 @@
         "teamA": 674109,
         "teamB": 675634,
         "teamA_wins": 1,
-        "teamB_wins": 1,
+        "teamB_wins": 2,
         "games": [
           2519919,
-          2519920
+          2519920,
+          2519945
         ],
         "last_meeting": {
-          "gameid": 2519920,
-          "date": "2026-05-17",
-          "winner_teamID": 674109,
-          "away_total": 4,
-          "home_total": 5,
+          "gameid": 2519945,
+          "date": "2026-07-17",
+          "winner_teamID": 675634,
+          "away_total": 5,
+          "home_total": 7,
           "finalType": ""
         }
       },
@@ -8148,6 +8447,12 @@
             "date": "2026-07-12",
             "goals": 0,
             "assists": 3
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 1,
+            "assists": 2
           }
         ]
       },
@@ -8238,6 +8543,12 @@
             "date": "2026-07-12",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -8580,6 +8891,12 @@
             "date": "2026-07-12",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -8670,6 +8987,12 @@
             "date": "2026-07-12",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 0,
+            "assists": 2
           }
         ]
       },
@@ -8742,6 +9065,12 @@
             "date": "2026-07-12",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -8922,6 +9251,12 @@
             "date": "2026-06-20",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -8975,6 +9310,12 @@
             "gameid": 2519944,
             "date": "2026-07-12",
             "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 0,
             "assists": 1
           }
         ]
@@ -10044,6 +10385,12 @@
             "date": "2026-06-28",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 2,
+            "assists": 1
           }
         ]
       },
@@ -10092,6 +10439,12 @@
             "date": "2026-06-06",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -10120,6 +10473,12 @@
           {
             "gameid": 2519936,
             "date": "2026-06-21",
+            "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
             "goals": 1,
             "assists": 1
           }
@@ -10162,6 +10521,12 @@
           {
             "gameid": 2519942,
             "date": "2026-07-05",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
             "goals": 0,
             "assists": 1
           }
@@ -10216,6 +10581,12 @@
           {
             "gameid": 2519942,
             "date": "2026-07-05",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
             "goals": 1,
             "assists": 0
           }
@@ -10306,6 +10677,12 @@
           {
             "gameid": 2519942,
             "date": "2026-07-05",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
             "goals": 0,
             "assists": 1
           }
@@ -10554,6 +10931,12 @@
             "date": "2026-06-28",
             "goals": 1,
             "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -10582,6 +10965,12 @@
           {
             "gameid": 2519942,
             "date": "2026-07-05",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
             "goals": 0,
             "assists": 1
           }
@@ -10698,6 +11087,12 @@
             "date": "2026-07-05",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -10956,6 +11351,12 @@
             "date": "2026-07-12",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 2,
+            "assists": 1
           }
         ]
       },
@@ -10998,6 +11399,12 @@
             "date": "2026-07-12",
             "goals": 2,
             "assists": 2
+          },
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -11024,6 +11431,18 @@
             "assists": 1
           }
         ]
+      },
+      "alankazhenov": {
+        "name": "Alan Kazhenov",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2519945,
+            "date": "2026-07-17",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
       }
     },
     "standings": [
@@ -11039,6 +11458,17 @@
         "pts": 27
       },
       {
+        "code": "DUN",
+        "name": "Dunedin Thunder",
+        "teamID": 675634,
+        "gp": 15,
+        "w": 8,
+        "l": 7,
+        "otw": 0,
+        "otl": 0,
+        "pts": 24
+      },
+      {
         "code": "ADM",
         "name": "Pure NZ Admirals",
         "teamID": 674110,
@@ -11048,17 +11478,6 @@
         "otw": 1,
         "otl": 0,
         "pts": 23
-      },
-      {
-        "code": "DUN",
-        "name": "Dunedin Thunder",
-        "teamID": 675634,
-        "gp": 14,
-        "w": 7,
-        "l": 7,
-        "otw": 0,
-        "otl": 0,
-        "pts": 21
       },
       {
         "code": "CRD",
@@ -11075,9 +11494,9 @@
         "code": "BSW",
         "name": "Botany Swarm",
         "teamID": 674109,
-        "gp": 12,
+        "gp": 13,
         "w": 3,
-        "l": 6,
+        "l": 7,
         "otw": 0,
         "otl": 3,
         "pts": 12
@@ -11085,18 +11504,6 @@
     ]
   },
   "upcoming": [
-    {
-      "date": "2026-07-17",
-      "time": "19:00",
-      "away": {
-        "teamID": 674109,
-        "name": "Botany Swarm"
-      },
-      "home": {
-        "teamID": 675634,
-        "name": "Dunedin Thunder"
-      }
-    },
     {
       "date": "2026-07-18",
       "time": "17:10",
