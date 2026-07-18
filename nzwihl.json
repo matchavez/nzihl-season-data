@@ -3654,11 +3654,225 @@
         }
       ],
       "finalType": ""
+    },
+    {
+      "gameid": 2520021,
+      "league": "NZWIHL",
+      "date": "2026-07-18",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 3,
+        "sog_periods": [
+          6,
+          4,
+          9
+        ],
+        "pp": "2/3",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 6,
+        "sog_periods": [
+          8,
+          11,
+          10
+        ],
+        "pp": "2/3",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "2",
+          "t": "19:50",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "12:04",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Emma Thorne"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "10:11",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Lauren Askenazy"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "7:46",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "14:16",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Brooke Patron"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "13:15",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "assists": [
+            "Steph Patchett"
+          ],
+          "flag": "",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "9:30",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "assists": [],
+          "flag": "PPG",
+          "teamID": 675637
+        },
+        {
+          "per": "3",
+          "t": "8:02",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "0:47",
+          "no": 94,
+          "who": "Lucy-Jane(LJ) Hart",
+          "assists": [
+            "Gabrielle Guerin"
+          ],
+          "flag": "PPG",
+          "teamID": 675637
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "7:29",
+          "no": 4,
+          "who": "Katya Blong",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "10:29",
+          "no": 69,
+          "who": "Angela Godfrey",
+          "inf": "Boarding",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "4:38",
+          "no": 27,
+          "who": "Nerhys Gordon",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "16:02",
+          "no": 3,
+          "who": "Reagyn Shattock (Niskakoski)",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "10:21",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "inf": "Slashing",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "1:47",
+          "no": 22,
+          "who": "Emma Thorne",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 675636,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675637,
+          "name": "Sierra Morgulis",
+          "sa": 29,
+          "ga": 6,
+          "sv": 23,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 675636,
+          "name": "Lochlyn Henry",
+          "sa": 19,
+          "ga": 3,
+          "sv": 16,
+          "mp": "60:00"
+        }
+      ],
+      "finalType": ""
     }
   ],
   "derived": {
     "last5": {
       "675636": [
+        {
+          "gameid": 2520021,
+          "date": "2026-07-18",
+          "result": "W"
+        },
         {
           "gameid": 2520016,
           "date": "2026-06-21",
@@ -3677,11 +3891,6 @@
         {
           "gameid": 2520009,
           "date": "2026-06-06",
-          "result": "W"
-        },
-        {
-          "gameid": 2520006,
-          "date": "2026-05-24",
           "result": "W"
         }
       ],
@@ -3741,6 +3950,11 @@
       ],
       "675637": [
         {
+          "gameid": 2520021,
+          "date": "2026-07-18",
+          "result": "L"
+        },
+        {
           "gameid": 2520020,
           "date": "2026-07-12",
           "result": "L"
@@ -3759,18 +3973,13 @@
           "gameid": 2520013,
           "date": "2026-06-20",
           "result": "L"
-        },
-        {
-          "gameid": 2520011,
-          "date": "2026-06-07",
-          "result": "L"
         }
       ]
     },
     "streak": {
       "675636": {
         "type": "W",
-        "count": 8
+        "count": 9
       },
       "675639": {
         "type": "W",
@@ -3782,7 +3991,7 @@
       },
       "675637": {
         "type": "L",
-        "count": 6
+        "count": 7
       }
     },
     "head_to_head": {
@@ -3867,18 +4076,19 @@
       "675636|675637": {
         "teamA": 675636,
         "teamB": 675637,
-        "teamA_wins": 2,
+        "teamA_wins": 3,
         "teamB_wins": 0,
         "games": [
           2520013,
-          2520016
+          2520016,
+          2520021
         ],
         "last_meeting": {
-          "gameid": 2520016,
-          "date": "2026-06-21",
+          "gameid": 2520021,
+          "date": "2026-07-18",
           "winner_teamID": 675636,
-          "away_total": 8,
-          "home_total": 1,
+          "away_total": 3,
+          "home_total": 6,
           "finalType": ""
         }
       },
@@ -3955,6 +4165,12 @@
             "date": "2026-06-21",
             "goals": 2,
             "assists": 2
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 3,
+            "assists": 0
           }
         ]
       },
@@ -4002,6 +4218,12 @@
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 1,
+            "assists": 1
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 0,
             "assists": 1
           }
         ]
@@ -4183,6 +4405,12 @@
             "date": "2026-06-21",
             "goals": 3,
             "assists": 1
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 3,
+            "assists": 0
           }
         ]
       },
@@ -4363,6 +4591,12 @@
             "date": "2026-06-06",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -4451,6 +4685,12 @@
           {
             "gameid": 2520016,
             "date": "2026-06-21",
+            "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
             "goals": 1,
             "assists": 0
           }
@@ -4549,6 +4789,12 @@
             "date": "2026-06-21",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 2,
+            "assists": 0
           }
         ]
       },
@@ -4728,6 +4974,12 @@
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 2,
+            "assists": 3
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 0,
             "assists": 3
           }
         ]
@@ -5005,6 +5257,12 @@
             "date": "2026-06-20",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -5103,6 +5361,18 @@
             "assists": 1
           }
         ]
+      },
+      "emmathorne": {
+        "name": "Emma Thorne",
+        "teamID": null,
+        "games": [
+          {
+            "gameid": 2520021,
+            "date": "2026-07-18",
+            "goals": 0,
+            "assists": 1
+          }
+        ]
       }
     },
     "standings": [
@@ -5110,12 +5380,12 @@
         "code": "AST",
         "name": "Auckland Steel",
         "teamID": 675636,
-        "gp": 8,
-        "w": 8,
+        "gp": 9,
+        "w": 9,
         "l": 0,
         "otw": 0,
         "otl": 0,
-        "pts": 24
+        "pts": 27
       },
       {
         "code": "DTW",
@@ -5143,9 +5413,9 @@
         "code": "CIN",
         "name": "Canterbury Inferno",
         "teamID": 675637,
-        "gp": 10,
+        "gp": 11,
         "w": 1,
-        "l": 7,
+        "l": 8,
         "otw": 2,
         "otl": 0,
         "pts": 7
