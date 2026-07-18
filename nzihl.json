@@ -11505,30 +11505,6 @@
   },
   "upcoming": [
     {
-      "date": "2026-07-18",
-      "time": "17:10",
-      "away": {
-        "teamID": 675635,
-        "name": "SkyCity Stampede"
-      },
-      "home": {
-        "teamID": 675633,
-        "name": "Canterbury Red Devils"
-      }
-    },
-    {
-      "date": "2026-07-18",
-      "time": "18:00",
-      "away": {
-        "teamID": 674109,
-        "name": "Botany Swarm"
-      },
-      "home": {
-        "teamID": 675634,
-        "name": "Dunedin Thunder"
-      }
-    },
-    {
       "date": "2026-07-19",
       "time": "17:10",
       "away": {
