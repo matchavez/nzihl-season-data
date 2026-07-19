@@ -11015,11 +11015,578 @@
         }
       ],
       "finalType": ""
+    },
+    {
+      "gameid": 2520022,
+      "league": "NZWIHL",
+      "date": "2026-07-19",
+      "away": {
+        "teamID": 675637,
+        "name": "Canterbury Inferno",
+        "code": "CIN",
+        "total": 0,
+        "sog_periods": [
+          3,
+          8,
+          7
+        ],
+        "pp": "0/0",
+        "pim": 4
+      },
+      "home": {
+        "teamID": 675636,
+        "name": "Auckland Steel",
+        "code": "AST",
+        "total": 10,
+        "sog_periods": [
+          9,
+          14,
+          9
+        ],
+        "pp": "2/2",
+        "pim": 0
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "14:10",
+          "no": 12,
+          "who": "Evelyn Mu",
+          "assists": [
+            "Katya Blong",
+            "Jasmine Horner-Pascoe"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "1",
+          "t": "9:13",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Katya Blong",
+            "Evelyn Mu"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "18:38",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron",
+            "Lauren Askenazy"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "15:49",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Katya Blong",
+            "Evelyn Mu"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "7:25",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [
+            "Brooke Patron",
+            "Jasmine Horner-Pascoe"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "2",
+          "t": "3:49",
+          "no": 20,
+          "who": "Maddy Sutton",
+          "assists": [
+            "Helen Murray",
+            "Erin Thomas"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "12:01",
+          "no": 2,
+          "who": "Jorja Rosser",
+          "assists": [
+            "MeiMei Keith",
+            "Jaime Jones"
+          ],
+          "flag": "PPG",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "9:48",
+          "no": 23,
+          "who": "Lauren Askenazy",
+          "assists": [
+            "Jorja Rosser"
+          ],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "8:57",
+          "no": 4,
+          "who": "Katya Blong",
+          "assists": [],
+          "flag": "",
+          "teamID": 675636
+        },
+        {
+          "per": "3",
+          "t": "7:05",
+          "no": 21,
+          "who": "Jasmine Horner-Pascoe",
+          "assists": [
+            "Katya Blong"
+          ],
+          "flag": "",
+          "teamID": 675636
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "0:31",
+          "no": 97,
+          "who": "Xunyin Zhang",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:24",
+          "no": 8,
+          "who": "Abby Barnett",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675637,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675637,
+          "name": "Coco Cruickshank",
+          "sa": 23,
+          "ga": 6,
+          "sv": 17,
+          "mp": "40:00"
+        },
+        {
+          "teamID": 675637,
+          "name": "Riley Wickes-Smith",
+          "sa": 9,
+          "ga": 4,
+          "sv": 5,
+          "mp": "20:00"
+        },
+        {
+          "teamID": 675636,
+          "name": "Alexa Gibson",
+          "sa": 18,
+          "ga": 0,
+          "sv": 18,
+          "mp": "60:00"
+        }
+      ],
+      "skaters": [
+        {
+          "teamID": 675637,
+          "no": 3,
+          "name": "Reagyn Shattock (Niskakoski)",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -5,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 7,
+          "name": "Lucy Boniface",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 8,
+          "name": "Abby Barnett",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -4,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675637,
+          "no": 10,
+          "name": "Gabrielle Guerin",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 14,
+          "name": "Sophie Jefferies",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -3,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 16,
+          "name": "Tayla Wallace",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -3,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 20,
+          "name": "Kaci Jonker",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 21,
+          "name": "Steph Patchett",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -4,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 22,
+          "name": "Chloe Harrop",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 27,
+          "name": "Nerhys Gordon",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -5,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 42,
+          "name": "Annah Matthews",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -3,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 64,
+          "name": "Cameron Tobin",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -4,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 69,
+          "name": "Angela Godfrey",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -6,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 88,
+          "name": "Lucia (Lucy) Eccleton-Allen",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -4,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 94,
+          "name": "Lucy-Jane(LJ) Hart",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675637,
+          "no": 97,
+          "name": "Xunyin Zhang",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675636,
+          "no": 2,
+          "name": "Jorja Rosser",
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 3,
+          "name": "Lili Hidvegi",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 4,
+          "name": "Katya Blong",
+          "g": 3,
+          "a": 4,
+          "pts": 7,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 6,
+          "name": "Helen Murray",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 7,
+          "name": "Brooke Patron",
+          "g": 0,
+          "a": 2,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 9,
+          "name": "Jaime Jones",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 11,
+          "name": "Ashley Richmond",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 12,
+          "name": "Evelyn Mu",
+          "g": 1,
+          "a": 2,
+          "pts": 3,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 14,
+          "name": "Eleanor Cunningham",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 16,
+          "name": "Mana Keefe",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 17,
+          "name": "Rikki-Lee McLean",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 18,
+          "name": "MeiMei Keith",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 20,
+          "name": "Maddy Sutton",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 21,
+          "name": "Jasmine Horner-Pascoe",
+          "g": 3,
+          "a": 2,
+          "pts": 5,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 22,
+          "name": "Emma Thorne",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 23,
+          "name": "Lauren Askenazy",
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675636,
+          "no": 27,
+          "name": "Erin Thomas",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        }
+      ],
+      "finalType": ""
     }
   ],
   "derived": {
     "last5": {
       "675636": [
+        {
+          "gameid": 2520022,
+          "date": "2026-07-19",
+          "result": "W"
+        },
         {
           "gameid": 2520021,
           "date": "2026-07-18",
@@ -11038,11 +11605,6 @@
         {
           "gameid": 2520012,
           "date": "2026-06-07",
-          "result": "W"
-        },
-        {
-          "gameid": 2520009,
-          "date": "2026-06-06",
           "result": "W"
         }
       ],
@@ -11102,6 +11664,11 @@
       ],
       "675637": [
         {
+          "gameid": 2520022,
+          "date": "2026-07-19",
+          "result": "L"
+        },
+        {
           "gameid": 2520021,
           "date": "2026-07-18",
           "result": "L"
@@ -11120,18 +11687,13 @@
           "gameid": 2520016,
           "date": "2026-06-21",
           "result": "L"
-        },
-        {
-          "gameid": 2520013,
-          "date": "2026-06-20",
-          "result": "L"
         }
       ]
     },
     "streak": {
       "675636": {
         "type": "W",
-        "count": 9
+        "count": 10
       },
       "675639": {
         "type": "W",
@@ -11143,7 +11705,7 @@
       },
       "675637": {
         "type": "L",
-        "count": 7
+        "count": 8
       }
     },
     "head_to_head": {
@@ -11228,19 +11790,20 @@
       "675636|675637": {
         "teamA": 675636,
         "teamB": 675637,
-        "teamA_wins": 3,
+        "teamA_wins": 4,
         "teamB_wins": 0,
         "games": [
           2520013,
           2520016,
-          2520021
+          2520021,
+          2520022
         ],
         "last_meeting": {
-          "gameid": 2520021,
-          "date": "2026-07-18",
+          "gameid": 2520022,
+          "date": "2026-07-19",
           "winner_teamID": 675636,
-          "away_total": 3,
-          "home_total": 6,
+          "away_total": 0,
+          "home_total": 10,
           "finalType": ""
         }
       },
@@ -11323,6 +11886,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -11383,6 +11952,12 @@
             "date": "2026-07-18",
             "goals": 3,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 3,
+            "assists": 4
           }
         ]
       },
@@ -11443,6 +12018,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -11497,6 +12078,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 3
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 2
           }
         ]
       },
@@ -11551,6 +12138,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -11665,6 +12258,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -11723,6 +12322,12 @@
           {
             "gameid": 2520021,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
             "goals": 0,
             "assists": 0
           }
@@ -11785,6 +12390,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -11845,6 +12456,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -11959,6 +12576,12 @@
             "date": "2026-07-18",
             "goals": 3,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 3,
+            "assists": 2
           }
         ]
       },
@@ -12018,6 +12641,12 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 1,
             "assists": 1
           }
         ]
@@ -12133,6 +12762,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -14011,6 +14646,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14083,6 +14724,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14141,6 +14788,12 @@
           {
             "gameid": 2520021,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
             "goals": 0,
             "assists": 0
           }
@@ -14203,6 +14856,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14329,6 +14988,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14436,6 +15101,12 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
             "assists": 0
           }
         ]
@@ -14545,6 +15216,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14629,6 +15306,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14701,6 +15384,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14771,6 +15460,12 @@
           {
             "gameid": 2520021,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
             "goals": 0,
             "assists": 0
           }
@@ -14881,6 +15576,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -14934,6 +15635,12 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 2,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
             "assists": 0
           }
         ]
@@ -15001,6 +15708,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -15103,6 +15816,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -15143,6 +15862,12 @@
           {
             "gameid": 2520021,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
             "goals": 0,
             "assists": 0
           }
@@ -15209,6 +15934,12 @@
           {
             "gameid": 2520021,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
             "goals": 0,
             "assists": 0
           }
@@ -15373,6 +16104,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -15491,6 +16228,12 @@
           {
             "gameid": 2520021,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
             "goals": 0,
             "assists": 0
           }
@@ -15619,6 +16362,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 1,
+            "assists": 2
           }
         ]
       },
@@ -15630,6 +16379,12 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 1,
             "assists": 0
           }
         ]
@@ -15643,6 +16398,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2520022,
+            "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
           }
         ]
       }
@@ -15652,12 +16413,12 @@
         "code": "AST",
         "name": "Auckland Steel",
         "teamID": 675636,
-        "gp": 9,
-        "w": 9,
+        "gp": 10,
+        "w": 10,
         "l": 0,
         "otw": 0,
         "otl": 0,
-        "pts": 27
+        "pts": 30
       },
       {
         "code": "DTW",
@@ -15685,9 +16446,9 @@
         "code": "CIN",
         "name": "Canterbury Inferno",
         "teamID": 675637,
-        "gp": 11,
+        "gp": 12,
         "w": 1,
-        "l": 8,
+        "l": 9,
         "otw": 2,
         "otl": 0,
         "pts": 7
