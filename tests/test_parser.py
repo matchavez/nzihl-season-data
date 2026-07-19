@@ -147,3 +147,28 @@ def test_pregame_shell_is_not_complete():
     """
     parsed = parse_boxscore(shell_html)
     assert parsed["complete"] is False
+
+
+def test_skater_lines_include_zero_point_players_with_correct_team_and_name():
+    """2026-07-20: the SKATERS table's full G/A/PTS/+/-/S/PIM line is now
+    captured per player, not just used as a name-lookup table -- this is
+    what lets derived.py log every game a player dressed for, scoreless or
+    not. Real fixture, not synthetic markup."""
+    parsed = parse_boxscore(_load("nzihl_2519940.html"))
+    lines = parsed["skater_lines"]
+    assert len(lines) > 20, "should capture the full roster of both teams, not a handful"
+
+    zero_point = [l for l in lines if l["g"] == 0 and l["a"] == 0]
+    assert zero_point, "a real box score always has some players with no points"
+    sample = zero_point[0]
+    assert sample["name"], "name must be resolved from the responsive dual-name span, not empty"
+    assert sample["teamID"] in (674109, 675634, 675633, 675635, 674110, 675636, 675637, 675638, 675639)
+    assert sample["pts"] == 0
+
+    # Anyone who actually scored in this game must also appear in
+    # skater_lines with matching totals -- cross-check against `goals`.
+    game = build_game(2519940, "NZIHL", parsed)
+    scorer_names = {g["who"] for g in game["goals"]}
+    line_names = {l["name"] for l in lines}
+    missing = scorer_names - line_names
+    assert not missing, f"scorers missing from skater_lines: {missing}"

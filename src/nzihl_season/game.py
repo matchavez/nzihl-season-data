@@ -23,5 +23,11 @@ def build_game(gameid: int, league: str, parsed: dict) -> dict:
         "goals": parsed["goals"],
         "pens": parsed["pens"],
         "goalies": parsed["goalies"],
+        # 2026-07-20: full per-skater per-game line (see parser.py's
+        # skater_lines) -- the authoritative source for player_game_logs
+        # (derived.py), since `goals` alone can't say who dressed but didn't
+        # score. Absent on games committed before this date; derived.py
+        # falls back to the old goals-only reconstruction for those.
+        "skaters": parsed.get("skater_lines", []),
         "finalType": header.get("final_type", ""),
     }

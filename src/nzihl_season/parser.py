@@ -263,7 +263,21 @@ def parse_boxscore(html: str) -> dict:
     # SKATERS rows (per team) -- used to resolve assist jersey numbers and,
     # as a fallback, a scorer/penalized player's team when the trailing-paren
     # team name doesn't cleanly match (shouldn't normally happen).
+    #
+    # Also captures the full per-player per-game stat line (`skater_lines`,
+    # 2026-07-20) -- # | Name | G | A | PTS | +/- | S | PIM, same 8-column
+    # shape as the GOALIES table below. This is the ONLY place a scoreless
+    # game shows up for a player: `goals` (the scoring-summary list) only
+    # ever records who scored/assisted, so a per-player log built from that
+    # alone silently omits every game a player dressed for but didn't
+    # register a point in -- see derived.py's compute_player_game_logs and
+    # its module docstring for why that matters (streak/last-game facts
+    # downstream can't tell "scoreless game" from "didn't play" without this).
+    # Name cell has the same responsive dual-span shape as GOALIES
+    # ("d-block d-sm-none" abbreviated + "d-none d-sm-block" full) --
+    # same `span.d-none` selector used there.
     skaters: list[tuple[int | None, str]] = []
+    skater_lines: list[dict] = []
     for h in h5s:
         if not re.search(r"SKATERS", h.get_text(), re.IGNORECASE):
             continue
@@ -282,6 +296,37 @@ def parse_boxscore(html: str) -> dict:
             tid = _team_id_of(row)
             if tid:
                 skaters.append((tid, _txt(row)))
+
+            cells = row.find_all("td")
+            if len(cells) < 8:
+                continue
+            no_txt = _txt(cells[0])
+            name_cell = cells[1]
+            wide_span = name_cell.select_one("span.d-none")
+            raw_name = wide_span.get_text() if wide_span else _txt(name_cell)
+            name = proper_case(re.sub(r"\s+", " ", raw_name).strip())
+            if not name:
+                continue
+
+            def _stat_int(cell) -> int:
+                t = _txt(cell)
+                if t.upper() == "E":  # even, same convention as +/- elsewhere
+                    return 0
+                return int(t) if t.lstrip("-").isdigit() else 0
+
+            skater_lines.append(
+                {
+                    "teamID": tid,
+                    "no": int(no_txt) if no_txt.isdigit() else None,
+                    "name": name,
+                    "g": _stat_int(cells[2]),
+                    "a": _stat_int(cells[3]),
+                    "pts": _stat_int(cells[4]),
+                    "plusMinus": _stat_int(cells[5]),
+                    "shots": _stat_int(cells[6]),
+                    "pim": _stat_int(cells[7]),
+                }
+            )
 
     def team_of_name(who: str) -> int | None:
         for tid, text in skaters:
@@ -481,5 +526,6 @@ def parse_boxscore(html: str) -> dict:
         "goals": goals,
         "pens": pens,
         "goalies": goalies,
+        "skater_lines": skater_lines,
         "complete": is_complete(header, goals),
     }

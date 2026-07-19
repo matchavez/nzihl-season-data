@@ -6,7 +6,9 @@ with whatever games are currently committed (idempotent rebuilds).
 - streak: current run length in the same direction (win vs not-a-win).
 - head_to_head: per unordered team pair, career meeting record + last result.
 - player_game_logs: per player (normalised name -> display name), one entry
-  per game they recorded a goal or assist in.
+  per game they DRESSED for (2026-07-20: includes scoreless games, sourced
+  from each game's `skaters` line -- see compute_player_game_logs docstring
+  for why this matters and the pre-migration fallback behavior).
 """
 from __future__ import annotations
 
@@ -98,7 +100,29 @@ def compute_head_to_head(games: list[dict]) -> dict:
 
 def compute_player_game_logs(games: list[dict]) -> dict:
     """Keyed by normalised player name (to merge case/whitespace variants);
-    each entry keeps the last-seen display spelling."""
+    each entry keeps the last-seen display spelling.
+
+    2026-07-20 fix: this used to build entries ONLY from `goals` (the
+    scoring-summary event list), which can only ever say who scored or
+    assisted -- a player who dressed and recorded nothing was simply absent
+    from their own log, not present with a zero. That silently broke any
+    "consecutive games" logic downstream: a true streak-breaking scoreless
+    game just didn't exist in the array to break on, so a gap could get
+    counted as unbroken, and a "last game" fact could end up describing a
+    game from days/weeks earlier because the truly-most-recent (scoreless)
+    game had no entry at all. See matchavez/hockey computeFact()/
+    assignDescriptors(), which both walk this array assuming it already
+    means "every game, zero or not" -- that assumption is what this fixes.
+
+    Now sourced from each game's `skaters` field (added to game.py's schema
+    2026-07-20) when present: one entry per player who appears in that
+    game's SKATERS table, with real G/A values including zero. Games
+    committed before that change don't have `skaters` yet -- see the
+    backfill in cli.py (`--backfill-skaters`) for retroactively re-fetching
+    those. Until a game is backfilled, it falls back to the old goals-only
+    reconstruction here, so nothing breaks mid-migration; it just keeps the
+    old (documented) limitation for not-yet-backfilled games specifically.
+    """
     logs: dict[str, dict] = {}
 
     def entry_for(name: str, team_id: int | None):
@@ -113,6 +137,23 @@ def compute_player_game_logs(games: list[dict]) -> dict:
 
     ordered = sorted(games, key=_game_sort_key)
     for g in ordered:
+        skater_lines = g.get("skaters")
+        if skater_lines:
+            for line in skater_lines:
+                e = entry_for(line["name"], line.get("teamID"))
+                if e is None:
+                    continue
+                e["games"][g["gameid"]] = {
+                    "gameid": g["gameid"],
+                    "date": g.get("date"),
+                    "goals": line.get("g", 0),
+                    "assists": line.get("a", 0),
+                }
+            continue
+
+        # Pre-migration fallback: no `skaters` field on this game yet, so
+        # scoreless games for a player are unavoidably absent here, same as
+        # the original implementation.
         for goal in g["goals"]:
             e = entry_for(goal["who"], goal.get("teamID"))
             if e is None:

@@ -34,11 +34,14 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 
 from .discovery import bootstrap_cursor, nightly_update
 from .game import build_game
 from .derived import build_derived
+from .http import FetchError, fetch_boxscore
+from .parser import parse_boxscore
 from .standings import fetch_standings
 from .teams import LEAGUES
 from .upcoming import fetch_upcoming
@@ -111,6 +114,61 @@ def build_league(key: str, out_dir: Path, cursor_state: dict, *, probe_ahead: in
     return manifest
 
 
+def backfill_skaters(key: str, out_dir: Path, *, sleep: float = 1.0) -> dict:
+    """One-time (re-run-safe) migration: re-fetch every currently-committed
+    game's box score and re-parse it with the current parser, so games
+    committed before the `skaters` field existed (2026-07-20, see
+    derived.py's compute_player_game_logs docstring for why it matters)
+    retroactively gain it. Games that already have a non-empty `skaters`
+    list are skipped -- safe to re-run or resume after an interruption.
+
+    Deliberately narrow: only re-fetches box scores and rebuilds `games` +
+    `derived`. Does not touch `standings`/`upcoming` (kept as committed) and
+    does not discover new games -- run a normal build afterward (or let the
+    next scheduled run) to pick up anything new since this started.
+    """
+    league = LEAGUES[key]
+    path = out_dir / f"{key}.json"
+    existing = _load_json(path, {"league": league.name, "games": [], "derived": {}, "upcoming": []})
+    games_by_id = {g["gameid"]: g for g in existing.get("games", [])}
+
+    todo = sorted(gid for gid, g in games_by_id.items() if not g.get("skaters"))
+    print(f"{key}: {len(todo)} of {len(games_by_id)} committed games need a skaters backfill")
+
+    refetched = 0
+    for gid in todo:
+        try:
+            html = fetch_boxscore(gid, league.client_id, league.league_id)
+        except FetchError as exc:
+            print(f"[warn] {key} gameid {gid}: refetch failed ({exc!r}), leaving as-is", file=sys.stderr)
+            if sleep:
+                time.sleep(sleep)
+            continue
+        parsed = parse_boxscore(html)
+        if not parsed.get("complete"):
+            print(f"[warn] {key} gameid {gid}: refetched page no longer parses as complete, leaving as-is",
+                  file=sys.stderr)
+            if sleep:
+                time.sleep(sleep)
+            continue
+        games_by_id[gid] = build_game(gid, league.name, parsed)
+        refetched += 1
+        if sleep:
+            time.sleep(sleep)
+
+    games = sorted(games_by_id.values(), key=lambda g: (g.get("date") or "9999-99-99", g["gameid"]))
+    derived = build_derived(games)
+    # Untouched by this migration -- not a full rebuild, just the skaters backfill.
+    derived["standings"] = existing.get("derived", {}).get("standings", [])
+    manifest = {"league": league.name, "games": games, "derived": derived,
+                "upcoming": existing.get("upcoming", [])}
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(manifest, indent=2, sort_keys=False) + "\n")
+    print(f"{key}: backfilled {refetched}/{len(todo)} games "
+          f"({len(todo) - refetched} skipped/failed, see warnings above)")
+    return manifest
+
+
 def main(argv=None) -> None:
     ap = argparse.ArgumentParser(description="Build the NZIHL/NZWIHL season data warehouse.")
     ap.add_argument("--output", default=".", help="directory to read/write nzihl.json/nzwihl.json/cursor.json in-place (repo root in CI)")
@@ -119,9 +177,22 @@ def main(argv=None) -> None:
                      help="forward-probe batch size used only on a brand-new cursor (first-ever run)")
     ap.add_argument("--sleep", type=float, default=1.0, help="seconds between fetches (politeness)")
     ap.add_argument("--leagues", default="nzihl,nzwihl", help="comma-separated league keys to build")
+    ap.add_argument("--backfill-skaters", action="store_true",
+                     help="one-time migration: re-fetch every already-committed game to add the "
+                          "`skaters` field (2026-07-20), then exit WITHOUT discovering new games "
+                          "or touching cursor.json. Safe to re-run -- already-migrated games are skipped.")
     args = ap.parse_args(argv)
 
     out_dir = Path(args.output)
+
+    if args.backfill_skaters:
+        for key in args.leagues.split(","):
+            key = key.strip()
+            if not key:
+                continue
+            backfill_skaters(key, out_dir, sleep=args.sleep)
+        return
+
     cursor_path = out_dir / CURSOR_FILE
     cursor_state = _load_json(cursor_path, {})
 

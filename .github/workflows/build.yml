@@ -21,7 +21,17 @@ on:
     - cron: "30 7 * * *"    # 19:30 NZST
     - cron: "30 10 * * *"   # 22:30 NZST
     - cron: "30 13 * * *"   # 01:30 NZST
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      backfill_skaters:
+        description: >-
+          One-time migration (2026-07-20): re-fetch every already-committed
+          game to add the `skaters` field (per-player per-game G/A, including
+          scoreless games -- see derived.py's compute_player_game_logs
+          docstring). Safe to re-run: already-migrated games are skipped.
+          Does NOT discover new games this run.
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -47,7 +57,11 @@ jobs:
 
       - name: Build warehouse (both leagues, 1 fetch/sec)
         run: |
-          python -m nzihl_season --leagues nzihl,nzwihl --output . --probe-ahead 20 --sleep 1.0 | tee build.log
+          if [ "${{ github.event.inputs.backfill_skaters }}" = "true" ]; then
+            python -m nzihl_season --leagues nzihl,nzwihl --output . --sleep 1.0 --backfill-skaters | tee build.log
+          else
+            python -m nzihl_season --leagues nzihl,nzwihl --output . --probe-ahead 20 --sleep 1.0 | tee build.log
+          fi
 
       - name: Commit if the deliverable actually changed
         run: |
