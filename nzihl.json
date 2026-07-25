@@ -23581,11 +23581,1235 @@
         }
       ],
       "finalType": ""
+    },
+    {
+      "gameid": 2519950,
+      "league": "NZIHL",
+      "date": "2026-07-25",
+      "away": {
+        "teamID": 674110,
+        "name": "Pure NZ Admirals",
+        "code": "ADM",
+        "total": 3,
+        "sog_periods": [
+          13,
+          9,
+          7
+        ],
+        "pp": "1/2",
+        "pim": 10
+      },
+      "home": {
+        "teamID": 675635,
+        "name": "SkyCity Stampede",
+        "code": "SCS",
+        "total": 4,
+        "sog_periods": [
+          17,
+          18,
+          16
+        ],
+        "pp": "0/5",
+        "pim": 6
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "16:05",
+          "no": 9,
+          "who": "Axel Ruski-Jones",
+          "assists": [],
+          "flag": "",
+          "teamID": 675635
+        },
+        {
+          "per": "1",
+          "t": "4:19",
+          "no": 46,
+          "who": "Sebastian Stephen",
+          "assists": [
+            "Vadim Sevenier"
+          ],
+          "flag": "",
+          "teamID": 674110
+        },
+        {
+          "per": "2",
+          "t": "13:40",
+          "no": 24,
+          "who": "Lachlan Frear",
+          "assists": [],
+          "flag": "",
+          "teamID": 675635
+        },
+        {
+          "per": "2",
+          "t": "5:20",
+          "no": 38,
+          "who": "Roscoe Eade",
+          "assists": [
+            "Vadim Sevenier",
+            "Flynn Hayward Jones"
+          ],
+          "flag": "PPG",
+          "teamID": 674110
+        },
+        {
+          "per": "3",
+          "t": "15:37",
+          "no": 42,
+          "who": "Alexander Regan",
+          "assists": [],
+          "flag": "",
+          "teamID": 674110
+        },
+        {
+          "per": "3",
+          "t": "7:48",
+          "no": 78,
+          "who": "Ollie Ruski-Jones",
+          "assists": [
+            "Lachlan Frear",
+            "Conner Jean"
+          ],
+          "flag": "",
+          "teamID": 675635
+        },
+        {
+          "per": "3",
+          "t": "4:41",
+          "no": 11,
+          "who": "Conner Jean",
+          "assists": [
+            "Dylan Devlin"
+          ],
+          "flag": "",
+          "teamID": 675635
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "2:29",
+          "no": 22,
+          "who": "Jordan Challis",
+          "inf": "Cross-checking",
+          "dur": "2 Minutes",
+          "teamID": 675635,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "12:15",
+          "no": 42,
+          "who": "Alexander Regan",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 674110,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "10:07",
+          "no": 28,
+          "who": "Scott Henry",
+          "inf": "Holding",
+          "dur": "2 Minutes",
+          "teamID": 674110,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "7:47",
+          "no": 7,
+          "who": "Sebastian Chamberlin",
+          "inf": "Kneeing",
+          "dur": "2 Minutes",
+          "teamID": 674110,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "7:12",
+          "no": 3,
+          "who": "Stefan Amston",
+          "inf": "Cross-checking",
+          "dur": "2 Minutes",
+          "teamID": 675635,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "12:12",
+          "no": 8,
+          "who": "Mason Kennedy",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 674110,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "0:00",
+          "no": 55,
+          "who": "Max Roth",
+          "inf": "Cross-checking",
+          "dur": "2 Minutes",
+          "teamID": 675635,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "0:00",
+          "no": 26,
+          "who": "Benjamin De Jonge",
+          "inf": "Cross-checking",
+          "dur": "2 Minutes",
+          "teamID": 674110,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 674110,
+          "name": "Csaba Kercso-Magos",
+          "sa": 50,
+          "ga": 4,
+          "sv": 46,
+          "mp": "57:48"
+        },
+        {
+          "teamID": 675635,
+          "name": "Aston Brookes",
+          "sa": 29,
+          "ga": 3,
+          "sv": 26,
+          "mp": "60:00"
+        }
+      ],
+      "skaters": [
+        {
+          "teamID": 674110,
+          "no": 7,
+          "name": "Sebastian Chamberlin",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674110,
+          "no": 8,
+          "name": "Mason Kennedy",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674110,
+          "no": 9,
+          "name": "Flynn Hayward Jones",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 11,
+          "name": "Lennox King",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 15,
+          "name": "Vinny Cistrone",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 18,
+          "name": "Aidan Chaney",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 22,
+          "name": "Max Vesper",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 23,
+          "name": "Benjamin Stephen",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 26,
+          "name": "Benjamin De Jonge",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674110,
+          "no": 28,
+          "name": "Scott Henry",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674110,
+          "no": 36,
+          "name": "Stephen Mawson",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 38,
+          "name": "Roscoe Eade",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 39,
+          "name": "Vadim Sevenier",
+          "g": 0,
+          "a": 2,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 41,
+          "name": "Declan Quinn",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674110,
+          "no": 42,
+          "name": "Alexander Regan",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674110,
+          "no": 46,
+          "name": "Sebastian Stephen",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 3,
+          "name": "Stefan Amston",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675635,
+          "no": 6,
+          "name": "Cameron Trew",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 8,
+          "name": "Connor Harrison",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 9,
+          "name": "Axel Ruski-Jones",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 11,
+          "name": "Conner Jean",
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 16,
+          "name": "Mitchell Frear",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 19,
+          "name": "Jack Robbie",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 21,
+          "name": "Dylan Devlin",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 22,
+          "name": "Jordan Challis",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675635,
+          "no": 24,
+          "name": "Lachlan Frear",
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 25,
+          "name": "Maxwell Macharg",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 28,
+          "name": "Jake Hutchins",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 36,
+          "name": "Logan Campbell",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 42,
+          "name": "Maxim Kaluzhny",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 52,
+          "name": "Tyler Challoner",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 55,
+          "name": "Max Roth",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675635,
+          "no": 78,
+          "name": "Ollie Ruski-Jones",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675635,
+          "no": 88,
+          "name": "Jackson Flight",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        }
+      ],
+      "finalType": ""
+    },
+    {
+      "gameid": 2519951,
+      "league": "NZIHL",
+      "date": "2026-07-25",
+      "away": {
+        "teamID": 675633,
+        "name": "Red Devils",
+        "code": "CRD",
+        "total": 6,
+        "sog_periods": [
+          12,
+          15,
+          6
+        ],
+        "pp": "1/4",
+        "pim": 6
+      },
+      "home": {
+        "teamID": 674109,
+        "name": "Botany Swarm",
+        "code": "BSW",
+        "total": 4,
+        "sog_periods": [
+          15,
+          10,
+          10
+        ],
+        "pp": "0/1",
+        "pim": 8
+      },
+      "goals": [
+        {
+          "per": "1",
+          "t": "15:09",
+          "no": 28,
+          "who": "Ondrej Kozak",
+          "assists": [
+            "Wilson Kushniruk"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "1",
+          "t": "4:09",
+          "no": 93,
+          "who": "Haydn Boul",
+          "assists": [
+            "Alex Gagnon",
+            "Fabian Hast"
+          ],
+          "flag": "PPG",
+          "teamID": 675633
+        },
+        {
+          "per": "1",
+          "t": "3:43",
+          "no": 62,
+          "who": "Rudolfs Lapsa",
+          "assists": [
+            "Ivan Dalmatau",
+            "Lennart Wimmer"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "2",
+          "t": "15:43",
+          "no": 71,
+          "who": "Seamus Gallagher",
+          "assists": [
+            "Shaun Brown",
+            "Mikael Guerin"
+          ],
+          "flag": "",
+          "teamID": 675633
+        },
+        {
+          "per": "2",
+          "t": "12:22",
+          "no": 20,
+          "who": "Wilson Kushniruk",
+          "assists": [
+            "Nicholas Winchester",
+            "Ritchie Hopkinson"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "2",
+          "t": "8:48",
+          "no": 88,
+          "who": "Alex Gagnon",
+          "assists": [
+            "Joshua Louw",
+            "Caleb Hance"
+          ],
+          "flag": "",
+          "teamID": 675633
+        },
+        {
+          "per": "2",
+          "t": "6:46",
+          "no": 88,
+          "who": "Alex Gagnon",
+          "assists": [
+            "Kieran Higgins"
+          ],
+          "flag": "",
+          "teamID": 675633
+        },
+        {
+          "per": "2",
+          "t": "5:40",
+          "no": 95,
+          "who": "Caleb Hance",
+          "assists": [
+            "George Hopkins",
+            "Fabian Hast"
+          ],
+          "flag": "",
+          "teamID": 675633
+        },
+        {
+          "per": "3",
+          "t": "16:03",
+          "no": 86,
+          "who": "Oliver Hay",
+          "assists": [
+            "Dima Koptev"
+          ],
+          "flag": "",
+          "teamID": 674109
+        },
+        {
+          "per": "3",
+          "t": "0:14",
+          "no": 88,
+          "who": "Alex Gagnon",
+          "assists": [],
+          "flag": "",
+          "teamID": 675633
+        }
+      ],
+      "pens": [
+        {
+          "per": "1",
+          "t": "4:55",
+          "no": 6,
+          "who": "Michael Attwell",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "14:53",
+          "no": 11,
+          "who": "George Hopkins",
+          "inf": "Tripping",
+          "dur": "2 Minutes",
+          "teamID": 675633,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "5:30",
+          "no": 3,
+          "who": "Aaron Byfield",
+          "inf": "Hooking",
+          "dur": "2 Minutes",
+          "teamID": 675633,
+          "teamPen": false
+        },
+        {
+          "per": "2",
+          "t": "5:30",
+          "no": 62,
+          "who": "Rudolfs Lapsa",
+          "inf": "High-sticking",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "17:27",
+          "no": 81,
+          "who": "Harry Louw",
+          "inf": "Interference",
+          "dur": "2 Minutes",
+          "teamID": 675633,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "17:27",
+          "no": 20,
+          "who": "Wilson Kushniruk",
+          "inf": "Slashing",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        },
+        {
+          "per": "3",
+          "t": "7:53",
+          "no": 21,
+          "who": "Dima Koptev",
+          "inf": "Roughing",
+          "dur": "2 Minutes",
+          "teamID": 674109,
+          "teamPen": false
+        }
+      ],
+      "goalies": [
+        {
+          "teamID": 675633,
+          "name": "Timothy Carey",
+          "sa": 35,
+          "ga": 4,
+          "sv": 31,
+          "mp": "60:00"
+        },
+        {
+          "teamID": 674109,
+          "name": "Connor Parr",
+          "sa": 29,
+          "ga": 5,
+          "sv": 24,
+          "mp": "58:27"
+        }
+      ],
+      "skaters": [
+        {
+          "teamID": 675633,
+          "no": 3,
+          "name": "Aaron Byfield",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -3,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675633,
+          "no": 8,
+          "name": "Shaun Brown",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 11,
+          "name": "George Hopkins",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675633,
+          "no": 12,
+          "name": "Mikael Guerin",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 21,
+          "name": "Michael Morrissey",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 22,
+          "name": "Luke Tappin",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 24,
+          "name": "Joshua Louw",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 27,
+          "name": "Mason Rees",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 48,
+          "name": "Fabian Hast",
+          "g": 0,
+          "a": 2,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 71,
+          "name": "Seamus Gallagher",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 75,
+          "name": "Kieran Higgins",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 77,
+          "name": "Eli Seo Jun Paek",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 81,
+          "name": "Harry Louw",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 675633,
+          "no": 88,
+          "name": "Alex Gagnon",
+          "g": 3,
+          "a": 1,
+          "pts": 4,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 93,
+          "name": "Haydn Boul",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 675633,
+          "no": 95,
+          "name": "Caleb Hance",
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 4,
+          "name": "Luke Simon",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 5,
+          "name": "Kyle March",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 6,
+          "name": "Michael Attwell",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674109,
+          "no": 7,
+          "name": "Nathan Hufnagel",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 13,
+          "name": "Andrew Hay",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 15,
+          "name": "Markus MacDonald",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 16,
+          "name": "Josh Steen",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -2,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 17,
+          "name": "Ivan Dalmatau",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 18,
+          "name": "Kyle Jonsson",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 20,
+          "name": "Wilson Kushniruk",
+          "g": 1,
+          "a": 1,
+          "pts": 2,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674109,
+          "no": 21,
+          "name": "Dima Koptev",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674109,
+          "no": 23,
+          "name": "Lennart Wimmer",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 24,
+          "name": "Remy Sandoy",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 26,
+          "name": "Nicholas Winchester",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 27,
+          "name": "Leon Quigley",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": -1,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 28,
+          "name": "Ondrej Kozak",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 62,
+          "name": "Rudolfs Lapsa",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 2
+        },
+        {
+          "teamID": 674109,
+          "no": 63,
+          "name": "Ritchie Hopkinson",
+          "g": 0,
+          "a": 1,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 82,
+          "name": "Adam Stitely",
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        },
+        {
+          "teamID": 674109,
+          "no": 86,
+          "name": "Oliver Hay",
+          "g": 1,
+          "a": 0,
+          "pts": 1,
+          "plusMinus": 0,
+          "shots": 0,
+          "pim": 0
+        }
+      ],
+      "finalType": ""
     }
   ],
   "derived": {
     "last5": {
       "675635": [
+        {
+          "gameid": 2519950,
+          "date": "2026-07-25",
+          "result": "W"
+        },
         {
           "gameid": 2519949,
           "date": "2026-07-24",
@@ -23605,11 +24829,6 @@
           "gameid": 2519942,
           "date": "2026-07-05",
           "result": "W"
-        },
-        {
-          "gameid": 2519941,
-          "date": "2026-07-04",
-          "result": "OTW"
         }
       ],
       "675634": [
@@ -23641,6 +24860,11 @@
       ],
       "675633": [
         {
+          "gameid": 2519951,
+          "date": "2026-07-25",
+          "result": "W"
+        },
+        {
           "gameid": 2519948,
           "date": "2026-07-19",
           "result": "L"
@@ -23659,14 +24883,14 @@
           "gameid": 2519939,
           "date": "2026-06-27",
           "result": "L"
-        },
-        {
-          "gameid": 2519932,
-          "date": "2026-06-13",
-          "result": "W"
         }
       ],
       "674110": [
+        {
+          "gameid": 2519950,
+          "date": "2026-07-25",
+          "result": "L"
+        },
         {
           "gameid": 2519949,
           "date": "2026-07-24",
@@ -23686,14 +24910,14 @@
           "gameid": 2519938,
           "date": "2026-06-28",
           "result": "SOW"
-        },
-        {
-          "gameid": 2519937,
-          "date": "2026-06-27",
-          "result": "W"
         }
       ],
       "674109": [
+        {
+          "gameid": 2519951,
+          "date": "2026-07-25",
+          "result": "L"
+        },
         {
           "gameid": 2519946,
           "date": "2026-07-18",
@@ -23713,34 +24937,29 @@
           "gameid": 2519941,
           "date": "2026-07-04",
           "result": "OTL"
-        },
-        {
-          "gameid": 2519938,
-          "date": "2026-06-28",
-          "result": "SOL"
         }
       ]
     },
     "streak": {
       "675635": {
         "type": "W",
-        "count": 2
+        "count": 3
       },
       "675634": {
         "type": "W",
         "count": 3
       },
       "675633": {
-        "type": "L",
+        "type": "W",
         "count": 1
       },
       "674110": {
         "type": "L",
-        "count": 2
+        "count": 3
       },
       "674109": {
         "type": "L",
-        "count": 7
+        "count": 8
       }
     },
     "head_to_head": {
@@ -23848,17 +25067,18 @@
         "teamA": 674109,
         "teamB": 675633,
         "teamA_wins": 1,
-        "teamB_wins": 1,
+        "teamB_wins": 2,
         "games": [
           2519923,
-          2519924
+          2519924,
+          2519951
         ],
         "last_meeting": {
-          "gameid": 2519924,
-          "date": "2026-05-24",
+          "gameid": 2519951,
+          "date": "2026-07-25",
           "winner_teamID": 675633,
-          "away_total": 4,
-          "home_total": 5,
+          "away_total": 6,
+          "home_total": 4,
           "finalType": ""
         }
       },
@@ -23866,18 +25086,19 @@
         "teamA": 674110,
         "teamB": 675635,
         "teamA_wins": 0,
-        "teamB_wins": 3,
+        "teamB_wins": 4,
         "games": [
           2519925,
           2519926,
-          2519949
+          2519949,
+          2519950
         ],
         "last_meeting": {
-          "gameid": 2519949,
-          "date": "2026-07-24",
+          "gameid": 2519950,
+          "date": "2026-07-25",
           "winner_teamID": 675635,
-          "away_total": 1,
-          "home_total": 8,
+          "away_total": 3,
+          "home_total": 4,
           "finalType": ""
         }
       },
@@ -24036,6 +25257,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -24130,6 +25357,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -24228,6 +25461,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -24300,6 +25539,12 @@
             "date": "2026-07-24",
             "goals": 2,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -24358,6 +25603,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -24450,6 +25701,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 2
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -24546,6 +25803,12 @@
             "date": "2026-07-24",
             "goals": 2,
             "assists": 2
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -24642,6 +25905,12 @@
             "date": "2026-07-24",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -24700,6 +25969,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -24798,6 +26073,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -24870,6 +26151,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -24910,6 +26197,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -25008,6 +26301,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 2
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -25104,6 +26403,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -25272,6 +26577,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -26994,6 +28305,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -27084,6 +28401,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -27174,6 +28497,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -27324,6 +28653,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -27414,6 +28749,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -27472,6 +28813,12 @@
           {
             "gameid": 2519948,
             "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -27642,6 +28989,12 @@
             "date": "2026-07-19",
             "goals": 2,
             "assists": 1
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 2
           }
         ]
       },
@@ -27810,6 +29163,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -27880,6 +29239,12 @@
           {
             "gameid": 2519947,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -27964,6 +29329,12 @@
           {
             "gameid": 2519948,
             "date": "2026-07-19",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -28056,6 +29427,12 @@
             "date": "2026-07-19",
             "goals": 1,
             "assists": 1
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 3,
+            "assists": 1
           }
         ]
       },
@@ -28146,6 +29523,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -28206,6 +29589,12 @@
             "date": "2026-06-27",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -28302,6 +29691,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -28386,6 +29781,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -28464,6 +29865,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -28522,6 +29929,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -28620,6 +30033,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -28686,6 +30105,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -28780,6 +30205,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -28878,6 +30309,12 @@
             "date": "2026-07-24",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -28972,6 +30409,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -29124,6 +30567,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 2
           }
         ]
       },
@@ -29200,6 +30649,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -29297,6 +30752,12 @@
             "gameid": 2519949,
             "date": "2026-07-24",
             "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
             "assists": 0
           }
         ]
@@ -29538,6 +30999,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -29692,6 +31159,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -29970,6 +31443,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 3
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -30054,6 +31533,12 @@
             "date": "2026-07-24",
             "goals": 3,
             "assists": 2
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -30132,6 +31617,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -30184,6 +31675,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -30276,6 +31773,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 1
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -30352,6 +31855,12 @@
           {
             "gameid": 2519946,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -30436,6 +31945,12 @@
           {
             "gameid": 2519946,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -30582,6 +32097,12 @@
             "date": "2026-06-28",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -30659,6 +32180,12 @@
             "gameid": 2519946,
             "date": "2026-07-18",
             "goals": 1,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
             "assists": 0
           }
         ]
@@ -30750,6 +32277,12 @@
             "date": "2026-07-18",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -30838,6 +32371,12 @@
           {
             "gameid": 2519946,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 1
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 1
           }
@@ -30930,6 +32469,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -31020,6 +32565,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -31060,6 +32611,12 @@
           {
             "gameid": 2519942,
             "date": "2026-07-05",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -31120,6 +32677,12 @@
           {
             "gameid": 2519946,
             "date": "2026-07-18",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -31211,6 +32774,12 @@
             "gameid": 2519946,
             "date": "2026-07-18",
             "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
             "assists": 0
           }
         ]
@@ -31314,6 +32883,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 2
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -31404,6 +32979,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -31494,6 +33075,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -31536,6 +33123,12 @@
             "date": "2026-06-28",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -31548,6 +33141,12 @@
             "date": "2026-05-17",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -31638,6 +33237,12 @@
             "date": "2026-07-18",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 0
           }
         ]
       },
@@ -31686,6 +33291,12 @@
             "date": "2026-07-05",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 1
           }
         ]
       },
@@ -31944,6 +33555,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -32004,6 +33621,12 @@
             "date": "2026-07-18",
             "goals": 1,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -32124,6 +33747,12 @@
             "date": "2026-07-24",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
+            "goals": 1,
+            "assists": 0
           }
         ]
       },
@@ -32194,6 +33823,12 @@
           {
             "gameid": 2519949,
             "date": "2026-07-24",
+            "goals": 0,
+            "assists": 0
+          },
+          {
+            "gameid": 2519950,
+            "date": "2026-07-25",
             "goals": 0,
             "assists": 0
           }
@@ -32430,6 +34065,12 @@
             "date": "2026-07-19",
             "goals": 0,
             "assists": 0
+          },
+          {
+            "gameid": 2519951,
+            "date": "2026-07-25",
+            "goals": 0,
+            "assists": 1
           }
         ]
       },
@@ -32493,12 +34134,12 @@
         "code": "SCS",
         "name": "SkyCity Stampede",
         "teamID": 675635,
-        "gp": 15,
-        "w": 9,
+        "gp": 16,
+        "w": 10,
         "l": 3,
         "otw": 3,
         "otl": 0,
-        "pts": 33
+        "pts": 36
       },
       {
         "code": "DUN",
@@ -32515,9 +34156,9 @@
         "code": "ADM",
         "name": "Pure NZ Admirals",
         "teamID": 674110,
-        "gp": 15,
+        "gp": 16,
         "w": 7,
-        "l": 7,
+        "l": 8,
         "otw": 1,
         "otl": 0,
         "pts": 23
@@ -32526,20 +34167,20 @@
         "code": "CRD",
         "name": "Canterbury Red Devils",
         "teamID": 675633,
-        "gp": 14,
-        "w": 5,
+        "gp": 15,
+        "w": 6,
         "l": 8,
         "otw": 0,
         "otl": 1,
-        "pts": 16
+        "pts": 19
       },
       {
         "code": "BSW",
         "name": "Botany Swarm",
         "teamID": 674109,
-        "gp": 14,
+        "gp": 15,
         "w": 3,
-        "l": 8,
+        "l": 9,
         "otw": 0,
         "otl": 3,
         "pts": 12
@@ -32547,18 +34188,6 @@
     ]
   },
   "upcoming": [
-    {
-      "date": "2026-07-25",
-      "time": "19:00",
-      "away": {
-        "teamID": 674110,
-        "name": "Pure NZ Admirals"
-      },
-      "home": {
-        "teamID": 675635,
-        "name": "SkyCity Stampede"
-      }
-    },
     {
       "date": "2026-07-26",
       "time": "16:45",
