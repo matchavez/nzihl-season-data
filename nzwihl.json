@@ -17077,18 +17077,5 @@
       }
     ]
   },
-  "upcoming": [
-    {
-      "date": "2026-07-26",
-      "time": "16:00",
-      "away": {
-        "teamID": 675636,
-        "name": "Auckland Steel"
-      },
-      "home": {
-        "teamID": 675638,
-        "name": "Dunedin Thunder"
-      }
-    }
-  ]
+  "upcoming": []
 }

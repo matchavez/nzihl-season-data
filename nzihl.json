@@ -34187,18 +34187,5 @@
       }
     ]
   },
-  "upcoming": [
-    {
-      "date": "2026-07-26",
-      "time": "16:45",
-      "away": {
-        "teamID": 675633,
-        "name": "Red Devils"
-      },
-      "home": {
-        "teamID": 674109,
-        "name": "Botany Swarm"
-      }
-    }
-  ]
+  "upcoming": []
 }
