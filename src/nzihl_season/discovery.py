@@ -84,8 +84,20 @@ def _exists(gameid: int, *, client_id: int = 7131, league_id: int = 35499) -> bo
         return False
 
 
+# 2026-07-28: max_consecutive_misses bumped 10->40. Confirmed live: NZIHL's
+# gap between the last regular-season gameid (2519952) and the first
+# playoff gameid (2519979/pending) contains 23 straight ids that belong to
+# NO league on the platform ("missing" -- other clients' bookings sit AROUND
+# this gap, not IN it). With the old 10-miss cap, nightly_update() stopped
+# dead 10 ids into that gap every single night and scanned_through never
+# moved again -- confirmed by the live cursor.json, which sat frozen at
+# scanned_through:2519952/pending:[] for as long as this bug existed; a
+# cron re-probing the identical dead zone every night can't ever self-heal.
+# 40 gives headroom to punch through an in-season gap like this one while
+# still stopping at a genuine season-boundary gap (which runs to thousands
+# of ids, not dozens).
 def nightly_update(league: LeagueCfg, cursor: dict, *, probe_ahead: int = 20,
-                    max_consecutive_misses: int = 10, sleep: float = 1.0,
+                    max_consecutive_misses: int = 40, sleep: float = 1.0,
                     classify_fn=None) -> tuple[list[dict], dict]:
     """Re-check pending shells, then probe forward for new ids.
 

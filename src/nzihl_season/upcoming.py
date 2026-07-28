@@ -33,6 +33,17 @@ from .http import fetch
 NZ_TZ = ZoneInfo("Pacific/Auckland")
 _SCHEDULE_URL = "https://admin.esportsdesk.com/leagues/schedules.cfm"
 
+# 2026-07-28: fetch_upcoming() used to be a single un-parameterized fetch,
+# which -- same discovery as nzihl-broadcast-rosters' schedule.py (see that
+# repo's 2026-07-28 fix) -- turns out to be scoped to roughly the site's
+# current server month and silently excludes anything after month-end.
+# Confirmed missing the entire August NZIHL/NZWIHL playoff bracket while
+# scraped in late July, which fed straight into the Combined Starting
+# Lineup's ?team= "soonest upcoming fixture" resolution finding nothing for
+# any playoff team. fetch_upcoming() now also fetches the explicit
+# monthID/yearID page for this month and the next two and merges them in;
+# parse_upcoming() dedupes the result.
+
 # Same shape as nzihl-broadcast-rosters/src/nzihl_rosters/schedule.py --
 # kept independently here rather than imported cross-repo.
 _DAY_HEADER_RE = re.compile(
@@ -54,6 +65,17 @@ _TIME_RE = re.compile(r"\b(\d{1,2}):(\d{2})\s*(AM|PM)\b", re.IGNORECASE)
 _MONTHS = {m.lower(): i + 1 for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 )}
+
+# "Aug. 7, 2026 @ 7:00 PM" -- the explicit monthID/yearID page (confirmed
+# 2026-07-28 to be the format esportsdesk serves for the playoff-round
+# schedule) uses inline per-row dates instead of the <h5> day-header blocks
+# the default page uses. Without this, parse_upcoming() finds zero rows on
+# that page since _DAY_HEADER_RE never matches it.
+_INLINE_DATE_RE = re.compile(
+    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+"
+    r"(\d{1,2}),\s+(\d{4})\s*@\s*(\d{1,2}):(\d{2})\s*(AM|PM)",
+    re.IGNORECASE,
+)
 
 
 def _strip_tags(s: str) -> str:
@@ -122,14 +144,107 @@ def parse_upcoming(html: str) -> list[dict]:
                 "home": {"teamID": home_id, "name": home_name},
             })
 
-    out.sort(key=lambda g: (g["date"], g["time"]))
-    return out
+    # Second pass: rows carrying their own inline "Mon. D, YYYY @ H:MM AM/PM"
+    # date (the explicit-month/playoff-page template, no <h5> day headers) --
+    # scan the whole document regardless of the header-block pass above. Rows
+    # from the default full-season-page template never contain this inline
+    # pattern (their date only lives in the enclosing <h5>), so this can't
+    # double-count anything the first pass already found.
+    for tr in _TR_RE.finditer(html):
+        row = tr.group(1)
+        if _BOXSCORE_RE.search(row):
+            continue
+        teams = _row_teams(row)
+        if len(teams) < 2:
+            continue
+        date_m = _INLINE_DATE_RE.search(_strip_tags(row))
+        if not date_m:
+            continue
+        month = _MONTHS[date_m.group(1).lower()]
+        day = int(date_m.group(2))
+        year = int(date_m.group(3))
+        hour = int(date_m.group(4))
+        minute = int(date_m.group(5))
+        ampm = date_m.group(6).upper()
+        if ampm == "PM" and hour != 12:
+            hour += 12
+        if ampm == "AM" and hour == 12:
+            hour = 0
+        start = datetime(year, month, day, hour, minute, tzinfo=NZ_TZ)
+        (away_id, away_name), (home_id, home_name) = teams[0], teams[1]
+        out.append({
+            "date": start.strftime("%Y-%m-%d"),
+            "time": start.strftime("%H:%M"),
+            "away": {"teamID": away_id, "name": away_name},
+            "home": {"teamID": home_id, "name": home_name},
+        })
+
+    # Dedupe: fetch_upcoming() now concatenates several overlapping page
+    # fetches (default + explicit current/next months, potentially both the
+    # header-block and inline-date row templates), so the same game can
+    # appear more than once. Keep first occurrence, keyed on the fields that
+    # identify a single real-world game.
+    seen: set[tuple[int, int, str, str]] = set()
+    deduped: list[dict] = []
+    for g in out:
+        key = (g["away"]["teamID"], g["home"]["teamID"], g["date"], g["time"])
+        if key not in seen:
+            seen.add(key)
+            deduped.append(g)
+
+    deduped.sort(key=lambda g: (g["date"], g["time"]))
+    return deduped
+
+
+def _fetch_month(client_id: int, league_id: int, *, month_id: int, year_id: int) -> str:
+    params = {"clientid": client_id, "leagueid": league_id, "schedType": "main",
+              "printPage": 1, "monthID": month_id, "yearID": year_id}
+    url = f"{_SCHEDULE_URL}?{urlencode(params)}"
+    return fetch(url)
 
 
 def fetch_upcoming(client_id: int, league_id: int) -> list[dict]:
     """Fetch schedules.cfm for one league and parse it. Raises on a
-    fetch failure (caller decides the fallback -- see cli.py)."""
+    fetch failure (caller decides the fallback -- see cli.py).
+
+    Merges the default page with explicit current+next-2-month pages (see
+    2026-07-28 module-docstring note) so games starting after the site's
+    current server month aren't silently dropped.
+
+    IMPORTANT: each page is parsed SEPARATELY (parse_upcoming called once per
+    page, results merged after). Concatenating the raw HTML strings first and
+    parsing once was tried and reverted -- parse_upcoming's <h5>-header-block
+    scan assigns every row from a header to the NEXT header's position (or
+    end-of-string if there isn't one); with concatenated docs, the last real
+    header in an earlier page swallows every row belonging to a LATER page
+    with no headers at all (confirmed live: the explicit month8/9 playoff
+    pages have zero <h5> headers, all inline-per-row dates -- see
+    _INLINE_DATE_RE), silently mislabelling real August playoff fixtures with
+    July's date. Parsing each page in its own isolated document avoids any
+    cross-page block bleed by construction.
+    """
     params = {"clientid": client_id, "leagueid": league_id}
     url = f"{_SCHEDULE_URL}?{urlencode(params)}"
-    html = fetch(url)
-    return parse_upcoming(html)
+    pages = [fetch(url)]
+    now = datetime.now(NZ_TZ)
+    for offset in (0, 1, 2):
+        m = now.month + offset
+        y = now.year
+        while m > 12:
+            m -= 12
+            y += 1
+        pages.append(_fetch_month(client_id, league_id, month_id=m, year_id=y))
+
+    merged: list[dict] = []
+    for html in pages:
+        merged.extend(parse_upcoming(html))
+
+    seen: set[tuple[int, int, str, str]] = set()
+    deduped: list[dict] = []
+    for g in merged:
+        key = (g["away"]["teamID"], g["home"]["teamID"], g["date"], g["time"])
+        if key not in seen:
+            seen.add(key)
+            deduped.append(g)
+    deduped.sort(key=lambda g: (g["date"], g["time"]))
+    return deduped

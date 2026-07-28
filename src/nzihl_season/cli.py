@@ -172,7 +172,14 @@ def backfill_skaters(key: str, out_dir: Path, *, sleep: float = 1.0) -> dict:
 def main(argv=None) -> None:
     ap = argparse.ArgumentParser(description="Build the NZIHL/NZWIHL season data warehouse.")
     ap.add_argument("--output", default=".", help="directory to read/write nzihl.json/nzwihl.json/cursor.json in-place (repo root in CI)")
-    ap.add_argument("--probe-ahead", type=int, default=20, help="nightly forward-probe batch size per league")
+    # 2026-07-28: bumped 20->50, paired with discovery.py's max_consecutive_misses
+    # 10->40 bump. probe_ahead is the hard per-run request budget -- even with a
+    # higher miss-cap, a run still can't advance past a gap wider than its own
+    # probe_ahead, since the loop also stops once it's spent this many probes.
+    # Confirmed live: NZIHL's regular-season-to-playoff gap needed ~30 probes
+    # (23 missing + a few not_ours) to reach the first playoff gameid; 20 wasn't
+    # enough even once the miss-cap stopped being the blocker.
+    ap.add_argument("--probe-ahead", type=int, default=50, help="nightly forward-probe batch size per league")
     ap.add_argument("--bootstrap-probe-ahead", type=int, default=60,
                      help="forward-probe batch size used only on a brand-new cursor (first-ever run)")
     ap.add_argument("--sleep", type=float, default=1.0, help="seconds between fetches (politeness)")
