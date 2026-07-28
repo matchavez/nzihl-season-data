@@ -35138,5 +35138,54 @@
       }
     ]
   },
-  "upcoming": []
+  "upcoming": [
+    {
+      "date": "2026-08-07",
+      "time": "19:00",
+      "away": {
+        "teamID": 675633,
+        "name": "Canterbury Red Devils"
+      },
+      "home": {
+        "teamID": 675635,
+        "name": "SkyCity Stampede"
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "time": "19:00",
+      "away": {
+        "teamID": 674110,
+        "name": "Pure NZ Admirals"
+      },
+      "home": {
+        "teamID": 675634,
+        "name": "Dunedin Thunder"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "time": "18:00",
+      "away": {
+        "teamID": 674110,
+        "name": "Pure NZ Admirals"
+      },
+      "home": {
+        "teamID": 675634,
+        "name": "Dunedin Thunder"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "time": "19:00",
+      "away": {
+        "teamID": 675633,
+        "name": "Canterbury Red Devils"
+      },
+      "home": {
+        "teamID": 675635,
+        "name": "SkyCity Stampede"
+      }
+    }
+  ]
 }
