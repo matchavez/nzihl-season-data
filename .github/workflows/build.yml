@@ -60,7 +60,15 @@ jobs:
           if [ "${{ github.event.inputs.backfill_skaters }}" = "true" ]; then
             python -m nzihl_season --leagues nzihl,nzwihl --output . --sleep 1.0 --backfill-skaters | tee build.log
           else
-            python -m nzihl_season --leagues nzihl,nzwihl --output . --probe-ahead 20 --sleep 1.0 | tee build.log
+            # 2026-07-28: bumped 20->50, paired with cli.py's default bump and
+            # discovery.py's max_consecutive_misses 10->40. Confirmed live:
+            # the old 20 left cursor.json permanently frozen at
+            # scanned_through:2519952 (NZIHL's 23-id gap between the last
+            # regular-season gameid and the first playoff one needs ~30
+            # probes to cross) -- this explicit flag was overriding the
+            # module default the whole time, so bumping the default alone
+            # wasn't enough.
+            python -m nzihl_season --leagues nzihl,nzwihl --output . --probe-ahead 50 --sleep 1.0 | tee build.log
           fi
 
       - name: Commit if the deliverable actually changed
