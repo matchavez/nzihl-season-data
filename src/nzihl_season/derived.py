@@ -122,6 +122,17 @@ def compute_player_game_logs(games: list[dict]) -> dict:
     those. Until a game is backfilled, it falls back to the old goals-only
     reconstruction here, so nothing breaks mid-migration; it just keeps the
     old (documented) limitation for not-yet-backfilled games specifically.
+
+    2026-07-30: also carries `plusMinus` through from the same `skaters`
+    line (scraped since 2026-07-20, just never surfaced here until now --
+    see matchavez/hockey's Team Scoring Leaders/warehouse discussion,
+    2026-07-30). Summing it per player across `games` gives an exact season
+    +/- total, same as goals/assists -- it's a counting stat, not an
+    approximation. Not available in the pre-migration goals-only fallback
+    below (the old scoring-summary source never carried it), so those
+    entries get `plusMinus: 0` -- a neutral placeholder, not a claim the
+    player was actually even that game, consistent with how the rest of
+    this fallback already documents its per-game limitations.
     """
     logs: dict[str, dict] = {}
 
@@ -148,6 +159,7 @@ def compute_player_game_logs(games: list[dict]) -> dict:
                     "date": g.get("date"),
                     "goals": line.get("g", 0),
                     "assists": line.get("a", 0),
+                    "plusMinus": line.get("plusMinus", 0),
                 }
             continue
 
@@ -158,13 +170,13 @@ def compute_player_game_logs(games: list[dict]) -> dict:
             e = entry_for(goal["who"], goal.get("teamID"))
             if e is None:
                 continue
-            gl = e["games"].setdefault(g["gameid"], {"gameid": g["gameid"], "date": g.get("date"), "goals": 0, "assists": 0})
+            gl = e["games"].setdefault(g["gameid"], {"gameid": g["gameid"], "date": g.get("date"), "goals": 0, "assists": 0, "plusMinus": 0})
             gl["goals"] += 1
             for assist_name in goal["assists"]:
                 ae = entry_for(assist_name, None)
                 if ae is None:
                     continue
-                agl = ae["games"].setdefault(g["gameid"], {"gameid": g["gameid"], "date": g.get("date"), "goals": 0, "assists": 0})
+                agl = ae["games"].setdefault(g["gameid"], {"gameid": g["gameid"], "date": g.get("date"), "goals": 0, "assists": 0, "plusMinus": 0})
                 agl["assists"] += 1
 
     out = {}

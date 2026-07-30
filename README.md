@@ -85,7 +85,7 @@ https://raw.githubusercontent.com/matchavez/nzihl-season-data/main/nzwihl.json
     },
     "player_game_logs": {
       "<normalized-name>": { "name": "Display Name", "teamID": <int|null>,
-        "games": [ { "gameid", "date", "goals", "assists" }, ... ] }
+        "games": [ { "gameid", "date", "goals", "assists", "plusMinus" }, ... ] }
     },
     "standings": [
       { "code": "SCS", "name": "SkyCity Stampede", "teamID": 675635,

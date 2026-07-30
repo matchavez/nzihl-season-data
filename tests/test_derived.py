@@ -81,6 +81,7 @@ def test_player_game_logs_goals_and_assists():
     jean = logs["connerjean"]
     assert jean["games"][0]["assists"] == 1
     assert jean["games"][0]["goals"] == 0
+    assert gagnon["games"][0]["plusMinus"] == 0, "pre-migration fallback has no plusMinus source, defaults to 0"
 
 
 def _skater_game(gameid, date, away_id, away_total, home_id, home_total, skaters):
@@ -107,8 +108,8 @@ def test_player_game_logs_uses_skaters_field_when_present_including_zero_games()
     gagnon = derived["player_game_logs"]["alexgagnon"]
     assert len(gagnon["games"]) == 2, "scoreless game 2 must still produce a log entry"
     by_gid = {g["gameid"]: g for g in gagnon["games"]}
-    assert by_gid[1] == {"gameid": 1, "date": "2026-05-01", "goals": 1, "assists": 0}
-    assert by_gid[2] == {"gameid": 2, "date": "2026-05-08", "goals": 0, "assists": 0}
+    assert by_gid[1] == {"gameid": 1, "date": "2026-05-01", "goals": 1, "assists": 0, "plusMinus": 1}
+    assert by_gid[2] == {"gameid": 2, "date": "2026-05-08", "goals": 0, "assists": 0, "plusMinus": -1}
 
 
 def test_player_game_logs_streak_breaks_on_real_scoreless_game():
@@ -167,3 +168,30 @@ def test_player_game_logs_mixed_pre_and_post_migration_games():
     by_gid = {g["gameid"]: g for g in gagnon_games}
     assert by_gid[1]["goals"] == 1
     assert by_gid[2]["goals"] == 0 and by_gid[2]["assists"] == 0
+    assert by_gid[1]["plusMinus"] == 0, "pre-migration game has no plusMinus source"
+    assert by_gid[2]["plusMinus"] == -1
+
+
+def test_player_game_logs_plus_minus_sums_correctly_across_a_season():
+    """The whole reason to surface plusMinus per game: a consumer summing it
+    across `games` should get an exact season +/- total, same as goals/assists
+    -- it's a counting stat, not an approximation (matchavez/hockey's
+    Team Scoring Leaders warehouse discussion, 2026-07-30)."""
+    games = [
+        _skater_game(1, "2026-05-01", TEAM_A, 3, TEAM_B, 1, skaters=[
+            {"teamID": TEAM_A, "no": 88, "name": "Alex Gagnon", "g": 1, "a": 0, "pts": 1,
+             "plusMinus": 2, "shots": 3, "pim": 0},
+        ]),
+        _skater_game(2, "2026-05-08", TEAM_A, 0, TEAM_B, 2, skaters=[
+            {"teamID": TEAM_A, "no": 88, "name": "Alex Gagnon", "g": 0, "a": 0, "pts": 0,
+             "plusMinus": -1, "shots": 1, "pim": 0},
+        ]),
+        _skater_game(3, "2026-05-15", TEAM_A, 4, TEAM_B, 4, skaters=[
+            {"teamID": TEAM_A, "no": 88, "name": "Alex Gagnon", "g": 2, "a": 1, "pts": 3,
+             "plusMinus": 0, "shots": 5, "pim": 0},
+        ]),
+    ]
+    derived = build_derived(games)
+    gagnon_games = derived["player_game_logs"]["alexgagnon"]["games"]
+    season_pm = sum(g["plusMinus"] for g in gagnon_games)
+    assert season_pm == 1  # +2, -1, 0
