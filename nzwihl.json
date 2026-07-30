@@ -12774,73 +12774,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -12852,73 +12864,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 3,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 1,
-            "assists": 3
+            "assists": 3,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 2,
-            "assists": 4
+            "assists": 4,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 2,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 3,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 3,
-            "assists": 4
+            "assists": 4,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -12930,73 +12954,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13008,67 +13044,78 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 1,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 2,
-            "assists": 3
+            "assists": 3,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 3
+            "assists": 3,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13080,67 +13127,78 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13152,49 +13210,57 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13206,73 +13272,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13284,61 +13362,71 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13350,73 +13438,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13428,73 +13528,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -13506,61 +13618,71 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 3,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -13572,73 +13694,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 4
+            "assists": 4,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 3,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 3,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 3,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -13650,73 +13784,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 1,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13728,49 +13874,57 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 4,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -13782,73 +13936,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13860,73 +14026,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -13938,73 +14116,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -6
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14016,73 +14206,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14094,61 +14296,71 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14160,13 +14372,15 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           }
         ]
       },
@@ -14178,55 +14392,64 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -14238,73 +14461,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14316,49 +14551,57 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -14370,37 +14613,43 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14412,73 +14661,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14490,55 +14751,64 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14550,73 +14820,85 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -6
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -3
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14628,43 +14910,50 @@
             "gameid": 2520001,
             "date": "2026-05-08",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           }
         ]
       },
@@ -14676,49 +14965,57 @@
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -14730,49 +15027,57 @@
             "gameid": 2520002,
             "date": "2026-05-09",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -14784,73 +15089,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -14862,61 +15179,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -14928,73 +15255,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15006,73 +15345,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 1,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15084,25 +15435,29 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15114,61 +15469,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15180,73 +15545,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15258,73 +15635,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -15336,55 +15725,64 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15396,43 +15794,50 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           }
         ]
       },
@@ -15444,49 +15849,57 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15498,67 +15911,78 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15570,73 +15994,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           }
         ]
       },
@@ -15648,73 +16084,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15726,61 +16174,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -15792,61 +16250,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           }
         ]
       },
@@ -15858,73 +16326,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -15936,61 +16416,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           }
         ]
       },
@@ -16002,61 +16492,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -3
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           }
         ]
       },
@@ -16068,61 +16568,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -16134,61 +16644,71 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           }
         ]
       },
@@ -16200,37 +16720,43 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -16242,67 +16768,78 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -6
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 3,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           }
         ]
       },
@@ -16314,31 +16851,36 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -16350,73 +16892,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           }
         ]
       },
@@ -16428,25 +16982,29 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -16458,55 +17016,64 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           }
         ]
       },
@@ -16518,73 +17085,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           }
         ]
       },
@@ -16596,73 +17175,85 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -6
           }
         ]
       },
@@ -16674,37 +17265,43 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -16716,67 +17313,78 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           }
         ]
       },
@@ -16788,55 +17396,64 @@
             "gameid": 2520003,
             "date": "2026-05-16",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -3
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -16848,67 +17465,78 @@
             "gameid": 2520004,
             "date": "2026-05-17",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           }
         ]
       },
@@ -16920,61 +17548,71 @@
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -16986,61 +17624,71 @@
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 1,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17052,55 +17700,64 @@
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17112,13 +17769,15 @@
             "gameid": 2520005,
             "date": "2026-05-23",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520006,
             "date": "2026-05-24",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17130,49 +17789,57 @@
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -4
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           }
         ]
       },
@@ -17184,49 +17851,57 @@
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17238,61 +17913,71 @@
             "gameid": 2520007,
             "date": "2026-05-29",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -3
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 1,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": -2
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 2,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 3,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 2,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17304,43 +17989,50 @@
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -17352,7 +18044,8 @@
             "gameid": 2520008,
             "date": "2026-05-30",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17364,25 +18057,29 @@
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -5
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17394,13 +18091,15 @@
             "gameid": 2520009,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           },
           {
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           }
         ]
       },
@@ -17412,13 +18111,15 @@
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17430,43 +18131,50 @@
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520011,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -2
           },
           {
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520019,
             "date": "2026-07-11",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520020,
             "date": "2026-07-12",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -17478,43 +18186,50 @@
             "gameid": 2520010,
             "date": "2026-06-06",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           }
         ]
       },
@@ -17526,7 +18241,8 @@
             "gameid": 2520012,
             "date": "2026-06-07",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17538,13 +18254,15 @@
             "gameid": 2520013,
             "date": "2026-06-20",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520016,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": -2
           }
         ]
       },
@@ -17556,37 +18274,43 @@
             "gameid": 2520014,
             "date": "2026-06-20",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520015,
             "date": "2026-06-21",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17598,13 +18322,15 @@
             "gameid": 2520017,
             "date": "2026-06-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520018,
             "date": "2026-06-27",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17616,13 +18342,15 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 1,
-            "assists": 2
+            "assists": 2,
+            "plusMinus": 0
           }
         ]
       },
@@ -17634,25 +18362,29 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 1,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": -1
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17664,13 +18396,15 @@
             "gameid": 2520021,
             "date": "2026-07-18",
             "goals": 0,
-            "assists": 1
+            "assists": 1,
+            "plusMinus": 0
           },
           {
             "gameid": 2520022,
             "date": "2026-07-19",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       },
@@ -17682,13 +18416,15 @@
             "gameid": 2520023,
             "date": "2026-07-25",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           },
           {
             "gameid": 2520024,
             "date": "2026-07-26",
             "goals": 0,
-            "assists": 0
+            "assists": 0,
+            "plusMinus": 0
           }
         ]
       }

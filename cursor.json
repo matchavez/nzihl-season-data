@@ -1,7 +1,12 @@
 {
   "nzihl": {
-    "pending": [],
-    "scanned_through": 2519952
+    "pending": [
+      2519979,
+      2519980,
+      2519981,
+      2519982
+    ],
+    "scanned_through": 2520002
   },
   "nzwihl": {
     "pending": [],
