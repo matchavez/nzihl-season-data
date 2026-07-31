@@ -18479,18 +18479,6 @@
   "upcoming": [
     {
       "date": "2026-08-01",
-      "time": "11:15",
-      "away": {
-        "teamID": 675637,
-        "name": "Canterbury Inferno"
-      },
-      "home": {
-        "teamID": 675636,
-        "name": "Auckland Steel"
-      }
-    },
-    {
-      "date": "2026-08-01",
       "time": "16:45",
       "away": {
         "teamID": 675639,
