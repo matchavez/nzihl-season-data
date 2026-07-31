@@ -26,7 +26,7 @@ TEAMS: dict[int, TeamMeta] = {
     675635: TeamMeta(675635, "SCS", "SkyCity Stampede", "NZIHL"),
     674109: TeamMeta(674109, "BSW", "Botany Swarm", "NZIHL"),
     675636: TeamMeta(675636, "AST", "Auckland Steel", "NZWIHL"),
-    675637: TeamMeta(675637, "CIN", "Canterbury Inferno", "NZWIHL"),
+    675637: TeamMeta(675637, "INF", "Canterbury Inferno", "NZWIHL"),
     675638: TeamMeta(675638, "DTW", "Dunedin Thunder Women", "NZWIHL"),
     675639: TeamMeta(675639, "WLD", "Wakatipu Wild", "NZWIHL"),
 }

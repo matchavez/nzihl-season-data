@@ -28,7 +28,7 @@ def test_parse_standings_nzihl_rank_order_and_fields():
 def test_parse_standings_nzwihl_rank_order_and_fields():
     html = _load("standings_nzwihl.html")
     rows = parse_standings(html, "nzwihl")
-    assert [r["code"] for r in rows] == ["AST", "DTW", "WLD", "CIN"]
+    assert [r["code"] for r in rows] == ["AST", "DTW", "WLD", "INF"]
     last = rows[-1]
     assert last["name"] == "Canterbury Inferno"
     assert last["teamID"] == 675637

@@ -59,7 +59,7 @@ def test_shootout_game_excludes_shootout_attempts_from_goals():
     parsed = parse_boxscore(_load("nzwihl_2520008.html"))
     game = build_game(2520008, "NZWIHL", parsed)
     assert game["finalType"] == "SO"
-    # Regulation goals only: CIN 2+0+2=4, WLD 1+2+1=4 -> 8 total.
+    # Regulation goals only: INF 2+0+2=4, WLD 1+2+1=4 -> 8 total.
     assert len(game["goals"]) == 8
     assert all(g["per"] in ("1", "2", "3") for g in game["goals"])
 
