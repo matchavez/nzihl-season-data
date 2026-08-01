@@ -18479,19 +18479,7 @@
   "upcoming": [
     {
       "date": "2026-08-02",
-      "time": "09:45",
-      "away": {
-        "teamID": 675638,
-        "name": "Dunedin Thunder Women"
-      },
-      "home": {
-        "teamID": 675637,
-        "name": "Canterbury Inferno"
-      }
-    },
-    {
-      "date": "2026-08-02",
-      "time": "16:30",
+      "time": "16:45",
       "away": {
         "teamID": 675639,
         "name": "Wakatipu Wild"
