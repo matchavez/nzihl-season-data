@@ -18476,18 +18476,5 @@
       }
     ]
   },
-  "upcoming": [
-    {
-      "date": "2026-08-02",
-      "time": "16:45",
-      "away": {
-        "teamID": 675639,
-        "name": "Wakatipu Wild"
-      },
-      "home": {
-        "teamID": 675636,
-        "name": "Auckland Steel"
-      }
-    }
-  ]
+  "upcoming": []
 }
