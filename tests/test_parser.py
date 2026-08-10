@@ -172,3 +172,40 @@ def test_skater_lines_include_zero_point_players_with_correct_team_and_name():
     line_names = {l["name"] for l in lines}
     missing = scorer_names - line_names
     assert not missing, f"scorers missing from skater_lines: {missing}"
+
+
+def test_positive_plus_minus_parses_correctly():
+    """Regression test for a real bug found 2026-08-10: _stat_int()'s old
+    implementation was `int(t) if t.lstrip("-").isdigit() else 0`, which
+    strips a leading '-' before checking digit-ness but never strips a
+    leading '+'. str.isdigit() rejects a string containing '+', so every
+    positive plusMinus cell silently fell through to 0 while negative and
+    'E' (even) values parsed correctly -- the season warehouse showed zero
+    positive plusMinus values across all 44 2026 NZIHL games and every
+    skater on both Finals teams, which is structurally impossible in a real
+    box score (roughly half of all values should be positive). Caught when
+    Mat noticed no player anywhere showed a positive +/-.
+
+    This fixture (2519941) has real '+1' cells in its SKATERS table --
+    confirmed by hand against the live esportsdesk box score before this
+    test was written. If this regresses, _stat_int is silently zeroing
+    positive values again."""
+    parsed = parse_boxscore(_load("nzihl_2519941_ot.html"))
+    lines = parsed["skater_lines"]
+
+    positive = [l for l in lines if l["plusMinus"] > 0]
+    assert positive, (
+        "expected at least one skater with a positive plusMinus in this "
+        "real fixture -- if this is empty, the +/- sign-parsing bug is back"
+    )
+
+    negative = [l for l in lines if l["plusMinus"] < 0]
+    assert negative, "fixture should also have negative +/- values (sanity check)"
+
+    # Spot-check specific known-good values against the live box score
+    # (admin.esportsdesk.com/leagues/hockey_boxscores.cfm, gameID=2519941),
+    # checked by hand 2026-08-10.
+    by_name = {l["name"]: l["plusMinus"] for l in lines}
+    assert by_name.get("Conner Jean") == 1
+    assert by_name.get("Lachlan Frear") == 1
+    assert by_name.get("Max Roth") == 1

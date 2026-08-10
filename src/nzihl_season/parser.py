@@ -312,7 +312,23 @@ def parse_boxscore(html: str) -> dict:
                 t = _txt(cell)
                 if t.upper() == "E":  # even, same convention as +/- elsewhere
                     return 0
-                return int(t) if t.lstrip("-").isdigit() else 0
+                # Bug fixed 2026-08-10: t.lstrip("-").isdigit() only strips a
+                # leading minus before checking digit-ness, so a positive
+                # +/- value like "+4" stayed "+4" (str.isdigit() rejects the
+                # "+"), silently fell through to 0, and every positive
+                # plusMinus in the warehouse was zeroed while negatives and
+                # "E" parsed correctly. Caught because the season file had
+                # zero positive plusMinus values across all 44 games and
+                # both semifinalists' skaters -- structurally impossible in
+                # real box scores. int() itself already parses a leading
+                # "+" or "-" correctly, so lean on that directly (with a
+                # strip() for stray whitespace) instead of hand-rolling a
+                # sign check.
+                t = t.strip()
+                try:
+                    return int(t)
+                except ValueError:
+                    return 0
 
             skater_lines.append(
                 {
