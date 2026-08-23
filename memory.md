@@ -1,6 +1,6 @@
 # memory.md — matchavez/nzihl-season-data
 
-Self-context for Claude. README.md is thorough (schema, scraping contracts) and explicitly AI-maintenance-oriented like matchavez/hockey's. This file adds automation ordering/timing rationale and gotchas. Last refreshed: 2026-07-13.
+Self-context for Claude. README.md is thorough (schema, scraping contracts) and explicitly AI-maintenance-oriented like matchavez/hockey's. This file adds automation ordering/timing rationale and gotchas. Last refreshed: 2026-08-24.
 
 ## What this repo is
 Nightly warehouse of every **completed** NZIHL/NZWIHL box score, committed as `nzihl.json`/`nzwihl.json` (games + derived streaks/H2H/last-meeting/player-game-logs). No Pages needed — consumers fetch raw.githubusercontent.com directly. Gameids are a **platform-wide shared sequence, not per-league** (NZIHL and NZWIHL gameids interleave in the same numeric space — don't assume a gameid range belongs to one league).
@@ -9,7 +9,8 @@ Nightly warehouse of every **completed** NZIHL/NZWIHL box score, committed as `n
 `src/nzihl_season/` (scraper + derivation logic), `tests/`, `cursor.json` (bookkeeping: `scanned_through` + `pending` gameids per league — deliberately kept OUT of nzihl.json/nzwihl.json so the data files stay clean), `.github/workflows/build.yml`.
 
 ## Automation
-- **Runs every 3 hours** (8 cron slots, tightened 2026-07-13 from once-nightly -- see README "Schedule" for the full writeup and the concrete same-day-multi-game case that motivated it). Original anchor `30 16 * * *` UTC = ~04:30 NZST is preserved exactly — **deliberately runs before** the roster pipelines' 17:30 UTC run, so same-morning "last meeting" lookups in the ticker page always see last night's completed games already committed here. The other 7 slots are that same anchor at +3h increments. If you ever touch this schedule, preserve the 04:30 NZST slot's ordering relative to the roster pipelines.
+- **PAUSED for 2026 off-season (2026-08-24).** The `schedule:` block in `.github/workflows/build.yml` is commented out — the cron below describes how it ran during the season, not current live behavior. `workflow_dispatch` still works for a manual run. Re-enable ahead of next season.
+- When live, ran every 3 hours (8 cron slots, tightened 2026-07-13 from once-nightly -- see README "Schedule" for the full writeup and the concrete same-day-multi-game case that motivated it). Original anchor `30 16 * * *` UTC = ~04:30 NZST is preserved exactly in the commented-out block — **deliberately runs before** the roster pipelines' 17:30 UTC run, so same-morning "last meeting" lookups in the ticker page always see last night's completed games already committed here. The other 7 slots are that same anchor at +3h increments. If you ever touch this schedule, preserve the 04:30 NZST slot's ordering relative to the roster pipelines.
 - Only commits when `nzihl.json`/`nzwihl.json` actually change (fixed 2026-07-09) — don't expect a commit every single night if nothing new resolved.
 
 ## Related repos
@@ -54,6 +55,12 @@ Canterbury Inferno (teamID 675637) — Gabrielle Guerin, Nerhys Gordon, Reagyn S
 `stats_1team.cfm` exactly (previously each short by 1 G or A). Spot-checked Pure NZ Admirals
 (ADM, NZIHL) and Auckland Steel (AST, NZWIHL) full rosters against live stats_1team.cfm too —
 byte-for-byte G/A/PTS match, confirming no regression from the two previously-clean teams.
+
+## Known bugs (found 2026-08-10, FIXED same day)
+
+**Positive +/- values were silently zeroed for every skater in every game.** `_stat_int()` stripped a leading minus before checking `str.isdigit()`, but `isdigit()` also rejects a leading `+`, so a real box-score cell like `"+4"` fell through and returned `0`. Negative values and `"E"` (even) parsed fine, so the bug was invisible unless you specifically checked whether any positive values existed at all — which nobody had, until the season warehouse turned out to have zero positive `plusMinus` values across all 44 2026 NZIHL games, not plausible in real hockey.
+
+**Fix (commit `94d02b1`):** `_stat_int` now just does `int(t.strip())` in a try/except — `int()` already handles a leading `+` or `-` correctly on its own. Regression test added (`test_positive_plus_minus_parses_correctly`) against a real fixture with known positive values. All 44 already-committed 2026 NZIHL games and 24 NZWIHL games were hand-rebuilt (re-parsed + `derived` recomputed) the same day, same reasoning as the 2026-07-13 fix above — `build_league()`'s "completed games never change" merge logic means a normal cron/dispatch run does not retroactively fix already-committed games.
 
 ## New: standings scraping (2026-07-13)
 
@@ -102,6 +109,15 @@ solve the case of two games genuinely overlapping in time (the second
 game's broadcast can start before the first has finished, which no
 refresh cadence fixes) -- only the "stale by up to a day" case. No-op
 runs (no new games) still don't commit, so this doesn't spam history.
+
+## Known gaps — 2026 season close-out (2026-08-24, NOT fixed, decision needed for 2027)
+
+The 2026 warehouse is solid for the regular season, but two postseason gaps are confirmed and currently sitting unfixed:
+
+- **`nzihl.json` is missing the NZIHL Grand Final** (SkyCity Stampede vs Dunedin Thunder, Aug 21/22/23). Games array stops at 2026-08-08 (the semis) at 44 games. `cursor.json`'s `scanned_through` (2520188) has already scanned past both Grand Final gameids (2519983, 2519984), so discovery saw them and did not pick them up — this isn't a not-yet-scraped case, something in discovery is filtering them out. Every 3-hour run since 2026-08-10 has reported the same 44 games, no new games, consistently — not an intermittent flake.
+- **`nzwihl.json` is missing the entire NZWIHL playoff weekend** (Aug 1-2: semis, bronze playoff, Goulding Cup Final). Games array stops 2026-07-26 at 24 games — the regular season only. Derived standings reflect the 12-game regular season, nothing postseason.
+
+**Root cause not investigated.** Deliberately not digging into this now — the fix would touch discovery/scraping code, which is out of scope for season close-out cleanup. Whether this warehouse is worth fixing at all is itself unresolved: **before relying on this warehouse for anything postseason in 2027, decide whether to reuse-and-fix it or rebuild it.** Don't assume either path without that decision — this note exists so the gap can't get missed going into 2027 planning.
 
 ## Sync note
 Keep this file and README.md in sync with every meaningful change. If they drift, flag it to Mat and get approval before publishing the sync rather than doing it silently.
