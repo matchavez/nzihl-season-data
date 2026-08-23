@@ -40031,42 +40031,5 @@
       }
     ]
   },
-  "upcoming": [
-    {
-      "date": "2026-08-21",
-      "time": "19:00",
-      "away": {
-        "teamID": 675634,
-        "name": "Dunedin Thunder"
-      },
-      "home": {
-        "teamID": 675635,
-        "name": "SkyCity Stampede"
-      }
-    },
-    {
-      "date": "2026-08-22",
-      "time": "19:00",
-      "away": {
-        "teamID": 675634,
-        "name": "Dunedin Thunder"
-      },
-      "home": {
-        "teamID": 675635,
-        "name": "SkyCity Stampede"
-      }
-    },
-    {
-      "date": "2026-08-23",
-      "time": "19:00",
-      "away": {
-        "teamID": 675634,
-        "name": "Dunedin Thunder"
-      },
-      "home": {
-        "teamID": 675635,
-        "name": "SkyCity Stampede"
-      }
-    }
-  ]
+  "upcoming": []
 }
