@@ -12,15 +12,19 @@ on:
   # purely a frequency increase, no other behavior change. A run that finds
   # no new games is still a true no-op commit (see "Commit if the deliverable
   # actually changed" below), so the extra runs don't spam commit history.
-  schedule:
-    - cron: "30 16 * * *"   # 04:30 NZST -- original anchor, before roster pipelines
-    - cron: "30 19 * * *"   # 07:30 NZST
-    - cron: "30 22 * * *"   # 10:30 NZST
-    - cron: "30 1 * * *"    # 13:30 NZST
-    - cron: "30 4 * * *"    # 16:30 NZST -- pre-evening-broadcast catch-up
-    - cron: "30 7 * * *"    # 19:30 NZST
-    - cron: "30 10 * * *"   # 22:30 NZST
-    - cron: "30 13 * * *"   # 01:30 NZST
+  #
+  # PAUSED for 2026 off-season -- 2026-08-24. Both leagues' seasons are over;
+  # every run since has been finding zero new games anyway. Re-enable the
+  # schedule block below ahead of next season.
+  # schedule:
+  #   - cron: "30 16 * * *"   # 04:30 NZST -- original anchor, before roster pipelines
+  #   - cron: "30 19 * * *"   # 07:30 NZST
+  #   - cron: "30 22 * * *"   # 10:30 NZST
+  #   - cron: "30 1 * * *"    # 13:30 NZST
+  #   - cron: "30 4 * * *"    # 16:30 NZST -- pre-evening-broadcast catch-up
+  #   - cron: "30 7 * * *"    # 19:30 NZST
+  #   - cron: "30 10 * * *"   # 22:30 NZST
+  #   - cron: "30 13 * * *"   # 01:30 NZST
   workflow_dispatch:
     inputs:
       backfill_skaters:
