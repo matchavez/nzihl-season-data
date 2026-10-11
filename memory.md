@@ -121,3 +121,9 @@ The 2026 warehouse is solid for the regular season, but two postseason gaps are 
 
 ## Sync note
 Keep this file and README.md in sync with every meaningful change. If they drift, flag it to Mat and get approval before publishing the sync rather than doing it silently.
+
+## 2026-10-12: seven playoff games added by hand (not by the nightly scraper)
+The nightly discovery never picked up these 2026 finals-weekend games: NZIHL Grand Final games 1 to 3 (gameids 2557890, 2519983, 2519984) and NZWIHL semifinals, bronze and final (2520032 to 2520035). Their ids sit outside or between the season blocks (see "Big discovery" above). They were read from the esportsdesk print pages with a browser, run through this repo's own `parse_boxscore()` / `build_game()`, merged into `nzihl.json` (44 to 47 games) and `nzwihl.json` (24 to 28 games), and `derived` was rebuilt. `standings`, `upcoming` and `cursor.json` were left alone. The cron is still paused.
+- Game 2519984 carries a `data_flags` entry. The sheet put the penalty shot against the wrong goalie. `goalies` holds Mat's corrected lines (Moore 45/5/40, Brookes 51/2/49); the printed lines are kept in `data_flags[0].printed`. A normal re-parse of that page would bring the wrong lines back, so do not rebuild this game from the page without re-applying the correction.
+- `derived` (last5, streak, head_to_head) mixes playoff and regular-season games. It already did this for NZIHL semifinals 2519979 to 2519982.
+- Source pages (stripped HTML, with SHA-256) are in the Hydra capture folder: `hydra_capture/esportsdesk_2026_finals/html/`.
